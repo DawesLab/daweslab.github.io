@@ -1,0 +1,31 @@
+---
+layout: post
+title: Math fonts in LaTeX
+date: 2008-02-22 01:42:26.000000000 -08:00
+type: post
+published: true
+status: publish
+categories:
+- physics
+tags:
+- bitstream charter
+- fonts
+- latex
+- math
+meta: {}
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p><img src="{{ site.baseurl }}/assets/bitstream-math-font.png" alt="Bitstream Math Font" height="68" align="left" />
+<p>Tired of Computer Modern or Times when you turn to LaTeX to document your hard work? This post outlines the relatively simple process of using another font that adds a bit more style to your documents. The general challenge is to find a font for the math that matches the text font. This is solved with the <a href="http://www.ctan.org/tex-archive/help/Catalogue/entries/mathdesign.html">mathdesign</a> package for LaTeX.</p>
+<p><!--more--></p>
+<p>Incidentally, there is a nice <a href="http://ctan.tug.org/tex-archive/info/Free_Math_Font_Survey/survey.html">overview</a> of other text and math font pairings by Stephen G. Hartke hosted on ctan. Check it out to see a <a href="http://ctan.tug.org/tex-archive/info/Free_Math_Font_Survey/images/chartermd.png">sample</a> of my new favorite, Bitstream Charter, in action.</p>
+<p>These instructions exist in various places on the internet, but as much for my sake as for anyone else's, I'll post them here as well. First, you will need the <a href="http://www.ctan.org/tex-archive/fonts/mathdesign/">mathdesign</a> package. Download <code>mdbch.zip</code> and <code>mdcore.zip</code> and put them in the root folder of your texmf tree. Unzip both, and run either "texhash" or "mktexlsr" (often one of these is aliased to the other, so either should work). Now you want to use "updmap" to update the font maps. You can do this by either adding a line like "Map mdbch.map" to your updmap.cfg file, or you can simply run <code>updmap --enable Map mdbch.map</code>. If you are root, the first may be easier, and more official. Otherwise, you'll probably have to use the latter option. They both work equally well.</p>
+<p>Finally, to use bitstream Charter in a LaTeX document, include the following lines in the beginning of your tex file:<br />
+<code>\usepackage[T1]{fontenc}<br />
+\usepackage[bitstream-charter]{mathdesign}</code></p>
+<p>Enjoy!</p>

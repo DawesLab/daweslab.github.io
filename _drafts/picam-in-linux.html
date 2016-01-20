@@ -1,0 +1,24 @@
+---
+layout: post
+title: PIcam in linux
+date: 
+type: post
+published: false
+status: draft
+categories:
+- physics
+tags: []
+meta: {}
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>There are probably only a dozen people this post applies to, but in the interest of helping them out, I've documented the steps we took to make our Princeton Instruments camera work under Fedora 19.</p>
+<p>Create a file /etc/ld.so.conf.d/pleora.conf with:</p>
+<p>/opt/pleora/ebus_sdk/lib<br />/opt/pleora/ebus_sdk/lib/genicam/bin/Linux64_x64</p>
+<p>This lets ldconfig know where to look for shared libraries.</p>
+<p>The user running the code needs to source /opt/PrincetonInstruments/picam/set_picam_env either by hand or in their .bashrc file</p>
+<p>Run commands with sudo:</p>

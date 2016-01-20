@@ -1,0 +1,42 @@
+---
+layout: post
+title: Data manipulation
+date: 2011-12-19 10:00:48.000000000 -08:00
+type: post
+published: true
+status: publish
+categories:
+- bad science
+- graphics
+tags:
+- chart
+- data
+- tv
+meta:
+  _edit_last: '506905'
+  publicize_results: a:1:{s:7:"twitter";a:1:{i:30146915;a:2:{s:7:"user_id";s:7:"DrDawes";s:7:"post_id";s:18:"148780535873933312";}}}
+  _wpas_done_twitter: '1'
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>This isn't a political post, it's a post about data, and ethics. When you read a graph, you start with the assumption that whoever made the graph followed a set of basic guidelines. Breaking these guidelines <em>can</em> happen by accident, but with computerized tools, this is rare. With the availability of graph software, making an X-Y graph misrepresent data requires some effort. Sometimes you can even prove it was intentional.</p>
+<p>The case study here is a television graphic presented last week. Here is the original on-air version:</p>
+<p>[caption id="attachment_546" align="alignleft" width="497" caption="Original air date Dec 12, 2011 (Fox News)"]<a href="http://dawes.files.wordpress.com/2011/12/foxnews.jpg"><img class="size-full wp-image-546" title="Fox data on unemployment" src="{{ site.baseurl }}/assets/foxnews.jpg" alt="Fox data on unemployment" width="497" height="299" /></a>[/caption]</p>
+<p>There are two big problems with this graph. I'm not going to address graph design, chartjunk, or any other aspects beyond the fundamentals. Once this graph is <em>technically correct</em>, we could argue those points. Here we'll focus on graphs 101... the basics.</p>
+<p><strong>The scale</strong> is clearly wrong on the left of the chart. 9% roughly lines up with the data but the peak at 9.2 almost lines up with 9.5 on the scale. The valley (8.8) is close to 8.5 on the scale. Despite the error, this doesn't really matter because most line graphs are used to indicate a trend. As long as the trend is correct, we can forgive an error on the scale.</p>
+<p><strong>The trend</strong> is not only wrong, but it has been manipulated. This can be shown by comparing the data presented above to the <a href="http://data.bls.gov/timeseries/lns14000000">actual data</a>. First, in order to even compare these charts, we have to fix the scale issue. It turns out that the scale was wrong by exactly 1/2 so it seems reasonable to assume that an error was made in the preparation where either the data or the scale were reduced in size in order to make things fit. Perhaps it was more pleasing to see 8 and 10 as round numbers on the screen. The data doesn't vary by much so that scale would have made it seem too flat (a legitimate trick for skewing data perception). This kind of mistake happens... it shouldn't, but it does. With the scale fixed, the data sets overlap very well except for two key areas:</p>
+<p>[caption id="attachment_548" align="alignleft" width="497" caption="Unemployment data (blue) and TV news graphic (red)."]<a href="http://dawes.files.wordpress.com/2011/12/fox-vs-reality.png"><img class="size-full wp-image-548" title="Unemployment data" src="{{ site.baseurl }}/assets/fox-vs-reality.png" alt="TV vs reality" width="497" height="298" /></a>[/caption]</p>
+<p>You can spot the difference without my help. Just to be open, honest, and clear I have added error bars that represent the confidence interval for gathering data from the screenshot presented above. Thanks to <a href="http://www.arizona-software.ch/graphclick/">GraphClick</a> software, this is an easy thing to do. The blue line is the original data from the <a href="http://data.bls.gov/timeseries/lns14000000">source</a>, and the red is the (scale corrected) TV version.</p>
+<p>Consider the process of making a graph:</p>
+<ol>
+<li>Start with a data set</li>
+<li>Import data into software</li>
+<li>Choose fonts, colors, points, backgrounds, lines, labels, etc.</li>
+<li>Show graph on TV</li>
+</ol>
+<p>Somewhere between steps 3 and 4 two things have happened. First, the scale shrunk (possibly to make 8 and 10 fit nicely on the TV screen). Second, at least two data points got tweaked. Perhaps you want to give the benefit of the doubt and assume that the last point was accidentally duplicated to show two points at 9 instead of one at 9 and one way down at 8.6. Ok, I'll let you think that. How can we explain why the next lowest point (March, 8.8) got shifted so far up? And why did the February point move down? Moving one point down doesn't cancel out moving another one up! This is data manipulation, this is what the same network continues to call <a href="http://www.foxnews.com/scitech/2011/12/16/complicit-in-climategate-doe-under-fire/">Climategate</a>!</p>
+<p>Sure, they could say "we gave you the raw data in yellow." Yes, but the graph is supposed to reinforce the numbers and represent them accurately. There are many ways to screw this up by accident... this was not an accident; <strong>someone grabbed those points in the graph and moved them around. </strong></p>

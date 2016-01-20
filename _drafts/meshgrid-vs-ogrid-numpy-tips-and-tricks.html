@@ -1,0 +1,20 @@
+---
+layout: post
+title: meshgrid vs. ogrid - NumPy tips and tricks
+date: 
+type: post
+published: false
+status: draft
+categories:
+- physics
+tags: []
+meta:
+  _edit_last: '506905'
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>I sat down to start building a numerical library for an experiment that I'll be doing over the next few months. Part of what I need to do is evaluate several functions on a grid of points. In the past, I've used the <code>meshgrid</code> command for this. I happened to be browsing through <a href="http://www.scipy.org/NumPy_for_Matlab_Users">NumPy for MATLAB users</a> after sending it to a colleague and I noticed the statement that <code>ogrid</code> is "the best way to eval functions on a grid". That statement is in comparison to <code>meshgrid</code>. I naturally wonder what is different and why is one better?<!--more--></p>

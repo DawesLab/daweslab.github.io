@@ -1,0 +1,74 @@
+---
+layout: page
+title: Article Widget
+date: 2010-12-23 13:12:47.000000000 -08:00
+type: page
+published: true
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '506905'
+  _oembed_bd8c4197b478c6d8e2b79a8883c851ae: "{{unknown}}"
+  _oembed_ebf2eecd53f4b12f56e721c78c05ace0: "{{unknown}}"
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<div class="item">
+<h2>About the Article dashboard widget</h2>
+<p>[caption id="attachment_384" align="aligncenter" width="303" caption="Screenshot of the Article Widget"]<a href="http://dawes.files.wordpress.com/2010/12/science.png"><img class="size-full wp-image-384" title="ArticleWidget" src="{{ site.baseurl }}/assets/science.png" alt="ArticleWidget" width="303" height="130" /></a>[/caption]</p>
+<p>This is a supplemental site for the support of Article, a dashboard widget I wrote for quickly accessing articles by volume and page number. I personally use it for following citations when I'm reading an article. An example workflow would be to use this widget to locate the journal webpage for the article and then from there import the citation to <a href="http://www.connotea.org/">Connotea</a>, <a title="CiteULike: A free online service to organise your academic papers" href="http://www.citeulike.org/">CiteULike</a> or <a title="BibDesk | Home" href="http://bibdesk.sourceforge.net/">BibDesk</a>, whichever you prefer. You can find a mirror of this information at the <a title="Article Widget" href="http://newton.ns.pacificu.edu/~dawes/code.html">original article widget site</a>.</p>
+<h2>Download</h2>
+<p><a href="article/Article_1.2.wdgt.zip">Article_1.2.wdgt.zip [80.6 kB] version 1.2</a></p>
+<h2>Installation</h2>
+<p>Mac OS X 10.4 or higher is required. Leopard works fine. If you’re using Safari, click the <a href="Article_1.2.wdgt.zip">download link</a>. When the widget download is complete, show Dashboard (press F12 by default), click the Plus sign to display the Widget Bar and click the widget’s icon in the Widget Bar to open it. If you’re using a browser other than Safari, click the download link. When the widget download is complete, unarchive it and place it in /Library/Widgets/ in your home folder. Show Dashboard, click the Plus sign to display the Widget Bar and click the widget’s icon in the Widget Bar to open it.</p>
+<h2>Usage</h2>
+<ul>
+<li>Choose your field in the first pulldown menu</li>
+<li>Select the journal you are looking for in the second pulldown menu</li>
+<li>Type in the volume number in the first text field</li>
+<li>Type the starting page number in the second text field</li>
+<li>Hit enter/return and you should find yourself at the abstract page for that article.*</li>
+</ul>
+<p>*Note: this may require having journal access through a university library or other arrangement.</p>
+<p>The only strangeness is that for accessing the ArXiv you will have to either:</p>
+<ul>
+<li>enter the subfield specifier—such as "quant-ph"—in the first field and the article number in the second field (old citation style like "nlin/0506006")</li>
+<li>enter the month-year code in the first field, and the id number in the second field (new citation style like "0705.4238")</li>
+</ul>
+<h2>Supported Journals (so far):</h2>
+<ul>
+<li>Phys. Rev. Lett.</li>
+<li>Phys. Rev. A-E</li>
+<li>Science</li>
+<li>Nature</li>
+<li>Optics Express</li>
+<li>Optics Letters</li>
+<li>ArXiv.org (old and new style)</li>
+<li>Rev. Sci. Inst.</li>
+<li>all ACS journals (Chemistry)</li>
+<li>Others being added daily</li>
+</ul>
+<p>We are trying to add the journals that you request. To make it faster and easier for us you may include the following information: a valid journal citation in the requested journal: i.e. "Science, 308, 672" and the URL of the abstract for that article (copy and paste from your web browser is fine).</p>
+<h2>Adding your own journals:</h2>
+<p>This is only for those interested in editing html and javascript files. If you break the widget by tinkering then just download a fresh copy and try it again.</p>
+<p>To edit the widget innards right- (or control-) click on the widget icon which can be found in ~/Library/Widgets. Choose "Show Package Contents." This will open a new finder window with all the widget guts. You will be editing article.html and article.js</p>
+<h3>article.html</h3>
+<p>Scroll to lines 71-76 and add an element to the array journals[i] where i corresponds to the index of your scientific field. Right now 1 is physics, 2 is General Science etc. This could change though so just check what other journals are already listed to be sure you're in the right place. Create an entry that looks like "Journal Title Abbreviated|jta" where you replace the part before the pipe "|" with your abbreviated journal title and the part after the pipe with a unique word or acronym that will identify your journal. Typically we use the first letters of the journal title words but check what is listed so it doesn't repeat one that's been used. Remember what you've written as the journal identifier. Save the file and close it.</p>
+<h3>article.js</h3>
+<p>This file is the widget brain, all you are doing is adding a snippet of code to form the URL for your journal based on a volume and page number query. Copy the code blocks that starts with "if (journal == "pra")", be sure to get both closing curly braces.</p>
+<p>Replace the "(journal == "pra")" with "(journal == "newjournalid")" where you insert the journal identifier you have chosen. Only one step left, the URL. Go to the web page for an abstract in your journal or better yet search for one that you know exists. Copy the URL for the abstract page to article.js near your new copy of the line that looks like:</p>
+<pre>widget.openURL("http://link.aip.org/link?"+"pra"+"/"+volume+"/"+page);</pre>
+<p>Notice that this URL is broken up into bits that correspond to the volume and page numbers. This is how the article widget works. It has a lookup table for journals and it creates the proper URL based on what you enter. To make a lookup table entry for your journal just do the same as above for your new journal URL. Find the volume and page numbers in the URL and replace them with the volume and page variables in article.js. Save both article.js and article.html. Give your new and improved widget a try and see if it works.</p>
+<p>Hopefully these instructions are clear, if you notice anything missing or have suggestions on how to clarify the process, feel free to let me know. Also if you get your favorite journal to work, send me your article.html and article.js files and I'll include your contribution and list you in the credits below. This is open source for a reason, lets all make it better.</p>
+<h2>Credits:</h2>
+<p>Major thanks go to Scott Sayres from Penn State who has added support for Phys. Rev. B-E, Rev. Sci. Inst., and the complete collection of ACS titles. He also gave the widget it's flipping skills. We've started a collaboration on this widget so expect to see other features as we both find time to add them.</p>
+<p>Also thanks to Michel Cote for fixing the APS journals that were broken when AIP stopped linking to APS. Phys. Rev. should work as intended in version 1.2 and later.</p>
+<h2>Terms of Service</h2>
+<p>This software is copyrighted © Andrew Dawes and Scott Sayres, some rights reserved. You may freely download this software, distribute it, and make full use of it for whatever purpose you like. There is no warranty express or implied. Hack it if you want, all dashboard widgets come with their own source code! I've provided it under the terms of the <a title="Creative Commons Deed" href="http://creativecommons.org/licenses/GPL/2.0/">Creative Commons GPL</a> so do the right thing.</p>
+<p>Please feel free to contact me with any questions about the widget, if you would like to add another journal to the list of supported journals, or if you find any bugs.</p>
+</div>

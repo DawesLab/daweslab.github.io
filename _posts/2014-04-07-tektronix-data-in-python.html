@@ -1,0 +1,45 @@
+---
+layout: post
+title: Tektronix data in Python
+date: 2014-04-07 09:30:54.000000000 -07:00
+type: post
+published: true
+status: publish
+categories:
+- computing
+- Designs
+- open source software
+- physics
+- python
+tags:
+- oscilloscope
+- tektronix
+meta:
+  publicize_twitter_user: DrDawes
+  publicize_twitter_url: http://t.co/mToT8VarzN
+  _wpas_done_12051: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:30146915;b:1;}}
+  _wpas_skip_12051: '1'
+  _edit_last: '506905'
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>[caption id="attachment_833" align="alignright" width="271"]<a href="http://dawes.files.wordpress.com/2014/04/screen-shot-2014-04-06-at-6-29-06-am.png"><img class="size-medium wp-image-833" src="{{ site.baseurl }}/assets/screen-shot-2014-04-06-at-6-29-06-am.png?w=271" alt="Screenshot of python code for viewing and saving data from Tektronix scopes." width="271" height="300" /></a> Screenshot of python code for viewing and saving data from Tektronix scopes.[/caption]</p>
+<p>In the Photonics and Quantum Optics lab, I've made open-source a high priority. With that in mind, we've written software to interface with many of our instruments. We also rely on <a href="http://github.com/DawesLab">github</a> for version control and dissemination of our code. I'm particularly happy with a small application that pulls data from a Tektronix oscilloscope (tested on TDS1000 &amp; 2000 models). This is my first python GUI app, despite having worked in python quite heavily for the past 12+ years. If you are interested, the work-in-progress code is <a href="http://github.com/DawesLab/instruments">available</a> and should work for a Tek scope plugged in to USB on a linux host. I can't promise it works on other platforms.</p>
+<p>Here is a partial list of the requirements:</p>
+<ul>
+<li>Python</li>
+<li>numpy</li>
+<li>matplotlib</li>
+<li>wxPython</li>
+<li>python-usbtmc</li>
+</ul>
+<p>All but the last are fairly standard for scientific use of python. The last can be installed by your package manager. In Fedora, run</p>
+<pre>yum install python-matplotlib-wx</pre>
+<p>and that should ensure that you have all but the last of these components installed. I used the python package manager "pip" to install the usbtmc package:</p>
+<pre>pip install python-usbtmc</pre>
+<p>Credit for this project also goes to Eli Bendersky for an awesome <a href="http://eli.thegreenplace.net/2008/08/01/matplotlib-with-wxpython-guis/">example</a> that got me 90% through this process.</p>

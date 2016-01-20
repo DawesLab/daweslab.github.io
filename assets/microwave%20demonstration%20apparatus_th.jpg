@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="http://computek.com.eg/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://computek.com.eg/images/favicon.ico" type="image/x-icon" />
+    <title>Website has been moved</title>
+    <style type="text/css">
+        a
+        {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body style="background-color: #fcfcfc; font-family: Arial;">
+    <form id="form1">
+    <div style="border: 2px solid #a5a5a5; padding: 50px; margin: auto; margin-top: 100px;
+        width: 60%; background-color: #ffffff; line-height: 30px;">
+        <div style="float: left;">
+            <img src="http://computek.com.eg/images/icon_info_big.gif" alt="Computek" runat="server" style="border: 0px;" />
+        </div>
+        <div style="float: left; padding: 10px; font-size: 14px;">
+            This website has been moved to <a href="http://www.computek.com.eg" title="Computek">http://www.computek.com.eg</a>.
+            <br />
+            Please update your bookmarks with this URL.
+            <br />
+            <input value="Go to the new site" onclick="location.href='http://www.computek.com.eg'"
+                style="font-size: 12px;" type="button">
+        </div>
+        <div style="clear: both;">
+        </div>
+        <div style="float: right;">
+            <img src="http://computek.com.eg/images/Computek_logo2.jpg" alt="computek International" runat="server" style="border: 0px; width:80%;" />
+        </div>
+        <div style="clear: both;">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

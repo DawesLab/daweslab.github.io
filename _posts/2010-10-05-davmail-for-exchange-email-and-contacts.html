@@ -1,0 +1,30 @@
+---
+layout: post
+title: DavMail for exchange email and contacts
+date: 2010-10-05 08:32:24.000000000 -07:00
+type: post
+published: true
+status: publish
+categories:
+- computing
+- open source software
+- tips &amp; tricks
+tags:
+- email
+- exchange
+- ical
+- ldap
+- thunderbird
+meta:
+  _edit_last: '506905'
+  _wp_old_slug: ''
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>I finally have a reasonable solution for working with email, contacts, and calendar information on the campus exchange server. I've written about this before and never been totally satisfied with my previous solutions. Now I am happy to say that using <a href="http://davmail.sourceforge.net/">DavMail</a> has been great.<br />
+<!--more--><br />
+The basic idea is that DavMail sets itself up as a middle-man. It can access the exchange features from the Outlook Web Access (OWA) pages and it presents those to your mail and calendar clients as if they are legitimate servers running standard services (POP, IMAP, SMTP, LDAP etc). So you point your client at a local server and DavMail relays the local requests to the OWA page and gives you access. In other words, DavMail takes the outlook web access webpage and lets Thunderbird, or iCal access the information directly. It is easy to install and setup and even gives very detailed logs which can be helpful for finding out how things are configured and if they are working correctly.</p>

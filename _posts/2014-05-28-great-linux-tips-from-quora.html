@@ -1,0 +1,148 @@
+---
+layout: post
+title: Great linux tips (from Quora)
+date: 2014-05-28 02:43:26.000000000 -07:00
+type: post
+published: true
+status: publish
+categories:
+- computing
+- tips &amp; tricks
+tags:
+- command line
+- linux
+meta:
+  _edit_last: '506905'
+  publicize_twitter_user: DrDawes
+  _oembed_534f2f63db95d33f2f912a07d45eac54: "{{unknown}}"
+  _oembed_ec5c912d1ab29e8b2c21eb7abd31424c: "{{unknown}}"
+  _oembed_711570bf0b01b86f66550d53563aecf3: "{{unknown}}"
+  _oembed_5d218fe9fbca717c27a73df031d56286: "{{unknown}}"
+  geo_public: '0'
+  publicize_twitter_url: http://t.co/p2UFBypydM
+  _wpas_done_12051: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:30146915;b:1;}}
+  _oembed_fe783b2d7941f63b60a125d1520f0160: "{{unknown}}"
+  _oembed_97d0c8221c70ca6647aaceb8b831cef1: "{{unknown}}"
+  _oembed_d772aa662722b0a551e159a54e8a428e: "{{unknown}}"
+  _oembed_6de2d704bf286869ee1359ec34de69b1: "{{unknown}}"
+  _oembed_20dc3c997d17ba82b8fa55eec9799943: "{{unknown}}"
+  _oembed_eb3631cae51b911d7f6e7234112ba93f: "{{unknown}}"
+  _oembed_0250bda9ddc0e94e1e1a724537a1a577: "{{unknown}}"
+  _oembed_0acbf2df650d9a12ad8fa49a1f8bf7c4: "{{unknown}}"
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>This is a repost of an answer on Quora ([embed]http://www.quora.com/Linux/What-are-some-time-saving-tips-that-every-Linux-user-should-know[/embed]) by Joshua Levy:</p>
+<p><b>Basics</b></p>
+<ul>
+<li>Learn basic <span class="qlink_container"><a style="color:#19558d;" href="http://www.quora.com/Bash-shell">Bash</a></span>. Actually, read the whole bash man page; it's pretty easy to follow and not that long. Alternate shells can be nice, but bash is powerful and always available (learning mainly zsh or tcsh restricts you in many situations).</li>
+<li>Learn vim. There's really no competition for random Linux editing (even if you use Emacs or Eclipse most of the time).</li>
+<li>Know ssh, and the basics of passwordless authentication, via ssh-agent, ssh-add, etc.</li>
+<li>Be familiar with bash job management: &amp;, Ctrl-Z, Ctrl-C, jobs, fg, bg, kill, etc.</li>
+<li>Basic file management: ls and ls -l (in particular, learn what every column in "ls -l" means), less, head, tail and tail -f, ln and ln -s (learn the differences and advantages of hard versus soft links), chown, chmod, du (for a quick summary of disk usage: du -sk *), df, mount.</li>
+<li>Basic network management: ip or ifconfig, dig.</li>
+<li>Know regular expressions well, and the various flags to grep/egrep. The -o, -A, and -B options are worth knowing.</li>
+<li>Learn to use apt-get or yum (depending on distro) to find and install packages.</li>
+</ul>
+<p><b>Everyday use</b></p>
+<ul>
+<li>In bash, use Ctrl-R to search through command history.</li>
+</ul>
+<ul>
+<li>In bash, use Ctrl-W to kill the last word, and Ctrl-U to kill the line. See man readline for default keybindings in bash. There are a lot. For example Alt-. cycles through prevous arguments, and Alt-* expands a glob.</li>
+<li>To go back to the previous working directory: cd -</li>
+<li>If you are halfway through typing a command but change your mind, hit Alt-# to add a # at the beginning and enter it as a comment (or use Ctrl-A, #, enter). You can then return to it later via command history.</li>
+<li>Use xargs (or parallel). It's very powerful. Note you can control how many items execute per line (-L) as well as parallelism (-P). If you're not sure if it'll do the right thing, use xargs echo first. Also, -I{} is handy. Examples:</li>
+</ul>
+<blockquote style="color:#666666;"><p>find . -name \*.py | xargs grep some_function</p></blockquote>
+<blockquote style="color:#666666;"><p>cat hosts | xargs -I{} ssh root@{} hostname</p></blockquote>
+<ul>
+<li>pstree -p is a helpful display of the process tree.</li>
+<li>Use pgrep and pkill to find or signal processes by name (-f is helpful).</li>
+<li>Know the various signals you can send processes. For example, to suspend a process, use kill -STOP [pid].  For the full list, see man 7 signal</li>
+<li>Use nohup or disown if you want a background process to keep running forever.</li>
+<li>Check what processes are listening via netstat -lntp. See also lsof.</li>
+<li>In bash scripts, use set -x for debugging output. Use set -e to abort on errors. Consider using set -o pipefail as well, to be strict about errors (though this topic is a bit subtle). For more involved scripts, also use trap.</li>
+<li>In bash scripts, subshells (written with parentheses) are convenient ways to group commands. A common example is to temporarily move to a different working directory, e.g.</li>
+</ul>
+<blockquote style="color:#666666;"><p># do something in current dir</p></blockquote>
+<blockquote style="color:#666666;"><p>(cd /some/other/dir; other-command)</p></blockquote>
+<blockquote style="color:#666666;"><p># continue in original dir</p></blockquote>
+<ul>
+<li>In bash, note there are lots of kinds of variable expansion. Checking a variable exists: ${name:?error message}. For example, if a bash script requires a single argument, just write input_file=${1:?usage: $0 input_file}. Arithmetic expansion: i=$(( (i + 1) % 5 )). Sequences: {1..10}. Trimming of strings: ${var%suffix} and ${var#prefix}. For example if var=foo.pdf, then echo ${var%.pdf}.txt prints "foo.txt".</li>
+<li>The output of a command can be treated like a file via &lt;(some command). For example, compare local /etc/hosts with a remote one: diff /etc/hosts &lt;(ssh somehost cat /etc/hosts)</li>
+<li>Know about "here documents" in bash, as in cat &lt;&lt;EOF ....</li>
+<li>In bash, redirect both standard output and standard error via: some-command &gt;logfile 2&gt;&amp;1. Often, to ensure a command does not leave an open file handle to standard input, tying it to the terminal you are in, it is also good practice to add "&lt;/dev/null".</li>
+<li>Use man ascii for a good ASCII table, with hex and decimal values.</li>
+<li>On remote ssh sessions, use screen or dtach to save your session, in case it is interrupted.</li>
+<li>In ssh, knowing how to port tunnel with -L or -D (and occasionally -R) is useful, e.g. to access web sites from a remote server.</li>
+<li>It can be useful to make a few optimizations to your ssh configuration; for example, this .ssh/config contains settings to avoid dropped connections in certain network environments, not require confirmation connecting to new hosts, forward authentication, and use compression (which is helpful with scp over low-bandwidth connections):</li>
+</ul>
+<blockquote style="color:#666666;"><p>TCPKeepAlive=yes</p></blockquote>
+<blockquote style="color:#666666;"><p>ServerAliveInterval=15</p></blockquote>
+<blockquote style="color:#666666;"><p>ServerAliveCountMax=6</p></blockquote>
+<blockquote style="color:#666666;"><p>StrictHostKeyChecking=no</p></blockquote>
+<blockquote style="color:#666666;"><p>Compression=yes</p></blockquote>
+<blockquote style="color:#666666;"><p>ForwardAgent=yes</p></blockquote>
+<ul>
+<li>To get the permissions on a file in octal form, which is useful for system configuration but not available in "ls" and easy to bungle, use something like</li>
+</ul>
+<blockquote style="color:#666666;"><p>stat -c '%A %a %n' /etc/timezone</p></blockquote>
+<p><b>Data processing</b></p>
+<ul>
+<li>To convert HTML to text: lynx -dump -stdin</li>
+<li>If you must handle XML, xmlstarlet is good.</li>
+<li>For Amazon S3, s3cmd is convenient (albeit immature, with occasional misfeatures).</li>
+<li>Know about sort and uniq (including uniq's -u and -d options).</li>
+<li>Know about cut, paste, and join to manipulate text files. Many people use cut but forget about join.</li>
+<li>It is remarkably helpful sometimes that you can do set intersection, union, and difference of text files via sort/uniq. Suppose a and b are text files that are already uniqued. This is fast, and works on files of arbitrary size, up to many gigabytes. (Sort is not limited by memory, though you may need to use the -T option if /tmp is on a small root partition.)</li>
+</ul>
+<blockquote style="color:#666666;"><p>cat a b | sort | uniq &gt; c   # c is a union b</p></blockquote>
+<blockquote style="color:#666666;"><p>cat a b | sort | uniq -d &gt; c   # c is a intersect b</p></blockquote>
+<blockquote style="color:#666666;"><p>cat a b b | sort | uniq -u &gt; c   # c is set difference a - b</p></blockquote>
+<ul>
+<li>Know that locale affects a lot of command line tools, including sorting order and performance. Most Linux installations will set LANG or other locale variables to a local setting like US English. This can make sort or other commands run <i>many times</i> slower. (Note that even if you use UTF-8 text, you can safely sort by ASCII order for many purposes.) To disable slow i18n routines and use traditional byte-based sort order, use export LC_ALL=C (in fact, consider putting this in your .bashrc).</li>
+<li>Know basic awk and sed for simple data munging. For example, summing all numbers in the third column of a text file: awk '{ x += $3 } END { print x }'. This is probably 3X faster and 3X shorter than equivalent Python.</li>
+<li>To replace all occurrences of a string in place, in files:</li>
+</ul>
+<blockquote style="color:#666666;"><p>perl -pi.bak -e 's/old-string/new-string/g' my-files-*.txt</p></blockquote>
+<ul>
+<li>Use shuf to shuffle or select random lines from a file.</li>
+<li>Know sort's options. Know how keys work (-t and -k). In particular, watch out that you need to write -k1,1 to sort by only the first field; -k1 means sort according to the whole line.</li>
+<li>Stable sort (sort -s) can be useful. For example, to sort first by field 2, then secondarily by field 1, you can use sort -k1,1 | sort -s -k2,2</li>
+<li>If you ever need to write a tab literal in a command line in bash (e.g. for the -t argument to sort), press Ctrl-V &lt;tab&gt; or write $'\t' (the latter is better as you can copy/paste it).</li>
+<li>For binary files, use hd for simple hex dumps and bvi for binary editing.</li>
+<li>Also for binary files, strings (plus grep, etc.) lets you find bits of text.</li>
+<li>To convert text encodings, try iconv. Or uconv for more advanced use; it supports some advanced Unicode things. For example, this command lowercases and removes all accents (by expanding and dropping them):</li>
+</ul>
+<blockquote style="color:#666666;"><p>uconv -f utf-8 -t utf-8 -x '::Any-Lower; ::Any-NFD; [:Nonspacing Mark:] &gt;; ::Any-NFC; ' &lt; input.txt &gt; output.txt</p></blockquote>
+<ul>
+<li>To split files into pieces, see split (to split by size) and csplit (to split by a pattern).</li>
+</ul>
+<p><b>System debugging</b></p>
+<ul>
+<li>For web debugging, curl and curl -I are handy, and/or their wget equivalents.</li>
+<li>To know disk/cpu/network status, use iostat, netstat, top (or the better htop), and (especially) dstat. Good for getting a quick idea of what's happening on a system.</li>
+<li>To know memory status, run and understand the output of free and vmstat. In particular, be aware the "cached" value is memory held by the Linux kernel as file cache, so effectively counts toward the "free" value.</li>
+<li>Java system debugging is a different kettle of fish, but a simple trick on Sun's and some other JVMs is that you can run kill -3 &lt;pid&gt; and a full stack trace and heap summary (including generational garbage collection details, which can be highly informative) will be dumped to stderr/logs.</li>
+<li>Use mtr as a better traceroute, to identify network issues.</li>
+<li>For looking at why a disk is full, ncdu saves time over the usual commands like "du -sk *".</li>
+<li>To find which socket or process is using bandwidth, try iftop or nethogs.</li>
+<li>The ab tool (comes with Apache) is helpful for quick-and-dirty checking of web server performance. For more complex load testing, try siege.</li>
+<li>For more serious network debugging, wireshark or tshark.</li>
+<li>Know strace and ltrace. These can be helpful if a program is failing, hanging, or crashing, and you don't know why, or if you want to get a general idea of performance. Note the profiling option (-c), and the ability to attach to a running process (-p).</li>
+<li>Know about ldd to check shared libraries etc.</li>
+<li>Know how to connect to a running process with gdb and get its stack traces.</li>
+<li>Use /proc. It's amazingly helpful sometimes when debugging live problems. Examples: /proc/cpuinfo, /proc/xxx/cwd, /proc/xxx/exe, /proc/xxx/fd/, /proc/xxx/smaps.</li>
+<li>When debugging why something went wrong in the past, sar can be very helpful. It shows historic statistics on CPU, memory, network, etc.</li>
+<li>For deeper systems and performance analyses, look at stap (systemtap) and perf.</li>
+<li>Confirm what Linux distribution you're using (works on most distros): "lsb_release -a"</li>
+<li>Use dmesg whenever something's acting really funny (it could be hardware or driver issues).</li>
+</ul>
+<p>&nbsp;</p>
+<p>[embed]http://qr.ae/KZTec[/embed]</p>

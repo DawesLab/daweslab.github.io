@@ -1,0 +1,169 @@
+---
+layout: post
+title: Computer controlled RGB LED mixer
+date: 2011-01-08 23:11:25.000000000 -08:00
+type: post
+published: true
+status: publish
+categories:
+- physics
+tags:
+- arduino
+- led
+meta:
+  _edit_last: '506905'
+  _oembed_5b90ac629dae1545e2593eb3f7a18851: <object width="584" height="438"><param
+    name="movie" value="http://www.youtube.com/v/Xs87uY_nlYo?version=3&feature=oembed"></param><param
+    name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed
+    src="http://www.youtube.com/v/Xs87uY_nlYo?version=3&feature=oembed" type="application/x-shockwave-flash"
+    width="584" height="438" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+  _oembed_a6dabf721c0a32eb467773f9eced0747: <object width="320" height="240"><param
+    name="movie" value="http://www.youtube.com/v/Xs87uY_nlYo?version=3&feature=oembed"></param><param
+    name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed
+    src="http://www.youtube.com/v/Xs87uY_nlYo?version=3&feature=oembed" type="application/x-shockwave-flash"
+    width="320" height="240" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+  _wpas_skip_twitter: '1'
+  _oembed_154249385d29bcd777399287297d7e53: <object width="497" height="373"><param
+    name="movie" value="http://www.youtube.com/v/Xs87uY_nlYo?version=3"></param><param
+    name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed
+    src="http://www.youtube.com/v/Xs87uY_nlYo?version=3" type="application/x-shockwave-flash"
+    width="497" height="373" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+  _oembed_330fbe265f06fd64de4fc60c6e988a84: <object width="680" height="510"><param
+    name="movie" value="http://www.youtube.com/v/Xs87uY_nlYo?version=3&feature=oembed"></param><param
+    name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed
+    src="http://www.youtube.com/v/Xs87uY_nlYo?version=3&feature=oembed" type="application/x-shockwave-flash"
+    width="680" height="510" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+  _oembed_661270b8e3477401592ffe8d4b1491ec: <iframe width="176" height="132" src="http://www.youtube.com/embed/Xs87uY_nlYo?fs=1&feature=oembed"
+    frameborder="0" allowfullscreen></iframe>
+  twitter_cards_summary_img_size: a:6:{i:0;i:870;i:1;i:972;i:2;i:3;i:3;s:24:"width="870"
+    height="972"";s:4:"bits";i:8;s:4:"mime";s:9:"image/png";}
+  _oembed_4bf434ef64521713db13e96d55c670f4: "{{unknown}}"
+  _oembed_4c143eb9842d416791a25c2bc5afc286: "{{unknown}}"
+  _oembed_f4f924a437af672d1401dbdb145c6d8f: "{{unknown}}"
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>http://www.youtube.com/watch?v=Xs87uY_nlYo</p>
+<p>I've been working on some interactive color-mixing exhibits and pulled together a fun system using an <a href="http://www.arduino.cc">arduino</a>, <a href="http://www.processing.org">processing</a> code, and computer control. The video above shows a demo of the mouse-controlled RGB color mixer. The idea was to create an interactive exploration of the color gamut (range of colors that can be created by mixing a given set of three colored lights). Code and more details are given below:<br />
+<!--more--></p>
+<p>The color gamut is usually illustrated as in the following figure. I've reflected this to some degree in the code. Moving the mouse to the top of the control window gives green light, the bottom right corner is red, and bottom left corner is blue. There are non-trivial issues with mapping a curved triangle to a square; I've completely ignored these issues. In one sense, I've stretched and compressed the gamut as necessary to get it all to fit into a square on the control end. That said, this should be a pretty easy way to get any of the possible colors out of a set of three LEDs.</p>
+<p>[caption id="" align="alignnone" width="522" caption="By Spigget (Own work), CC-BY-SA-3.0 (www.creativecommons.org/licenses/by-sa/3.0) or GFDL, via Wikimedia Commons"]<a href="http://commons.wikimedia.org/wiki/File:Cie_Chart_with_sRGB_gamut_by_spigget.png"><img class=" " title="Color Gamut" src="{{ site.baseurl }}/assets/Cie_Chart_with_sRGB_gamut_by_spigget.png" alt="gamut" width="522" height="583" /></a>[/caption]</p>
+<h4>Hardware:</h4>
+<p>I used a <a href="http://www.sparkfun.com/products/10111">Sparkfun KIT-10111</a> tri-LED breakout board. The Arduino provides power, serial in/out, and PWM control of the red/green/blue input pins on the 10111 board.</p>
+<h4>Code:</h4>
+<p>The code is given below, I learned most of it from examples and looking through the processing API. This is my first project to use processing, and I first found myself wishing I had done it in python... but in the end, processing has some very slick ways to take input and to draw stuff. Since that is 90% of what I had to do here, it turned out to be a good fit.</p>
+<p>Processing code (this is the control "gui" for the project):<br />
+[sourcecode language="cpp"]<br />
+/**<br />
+ * RGB LED control<br />
+ * AMC Dawes (dawes@pacificu.edu)<br />
+ * dawes.wordpress.com<br />
+ * Updated 8 January 2011<br />
+ */</p>
+<p>// Use the included processing code serial library<br />
+import processing.serial.*;        </p>
+<p>int winSize = 255;</p>
+<p>Serial port;  // The serial port<br />
+String myString;<br />
+int redBright, grnBright, bluBright;</p>
+<p>void setup()<br />
+{<br />
+  size(winSize, winSize);<br />
+  colorMode(RGB, 255);<br />
+  noStroke();<br />
+  ellipseMode(CENTER);<br />
+  frameRate(100);</p>
+<p>  println(Serial.list()); // List COM-ports</p>
+<p>  //select first com-port from the list<br />
+  port = new Serial(this, Serial.list()[0], 57600);<br />
+}</p>
+<p>void draw()<br />
+{<br />
+  background(0.0);<br />
+  update(mouseX, mouseY);<br />
+  fill(redBright,grnBright,bluBright);<br />
+  background(0);<br />
+  ellipse(mouseX, mouseY, 20, 20);<br />
+  //while (port.available() &gt; 0) {<br />
+    //myString = port.readStringUntil(lf);<br />
+    //if (myString != null) {<br />
+	//println(myString);  // Prints String<br />
+    //}<br />
+  //}<br />
+}</p>
+<p>void update(int x, int y)<br />
+{<br />
+  redBright = x*y/255;<br />
+  grnBright = -y+255;<br />
+  bluBright = (-x+255)*y/255;</p>
+<p>  //Output the led brightness ( from 0 to 255)<br />
+  port.write(0x73); // Send control character (ASCII 's')<br />
+  port.write(redBright);<br />
+  port.write(grnBright);<br />
+  port.write(bluBright);<br />
+}<br />
+[/sourcecode]</p>
+<p>Load the following code onto your Arduino. You can test it with the serial monitor (be sure to set the baud rate correctly). Try sending control sequences like "saaa" or "s~~~" or "s!!!". The Arduino waits for an "s" (0x73) to indicate a control sequence. The next three bytes are red, green, and blue integers (0-255). The ASCII bytes associated with "a", "~" and "!" are 0x61, 0x7E, and 0x21 respectively. These are equivalent to decimal 97, 126, and 33. While these don't fill the 8-bit depth (decimal 0-255) they give you a good sense of being able to control the brightness. Of course, these examples would all have each LED light up by an equal amount (approximately). To make mostly red light up send: "s~!!". This would be approximately RGB (126,33,33) or for web designers out there #7E2121. The mouse interface in processing writes decimal integers between 0 and 255 to each LED so you should see one LED go dark as the mouse reaches the edge of the black window.</p>
+<p>The hardest part was debugging the processing code to make sure it was sending the right thing to the Arduino. It has been a while since I've used C++ for any byte-level stuff. A serial LCD helped a bit, but mostly is was old-fashioned trial and error. Overall the project took about two hours to hash through (not counting assembly time for the LED kit, which was ~ 1/2 hour). Enjoy, and as always, your comments and suggestions are greatly appreciated.</p>
+<p>Arduino code:<br />
+[sourcecode language="cpp"]<br />
+/*<br />
+RGB color gamut (mouse control)</p>
+<p> The circuit:<br />
+ Sparkfun Three LED breakout board KIT-10111<br />
+ * RED on Arduino pin 9<br />
+ * GRN on Arduino pin 10<br />
+ * BLU on Arduino pin 11</p>
+<p> AMC Dawes (dawes@pacificu.edu)<br />
+ dawes.wordpress.com<br />
+ Created 4 Jan 2011<br />
+ Based on sample code &quot;Fading&quot; By David A. Mellis</p>
+<p> */</p>
+<p>int redPin = 9;<br />
+int grnPin = 10;<br />
+int bluPin = 11;</p>
+<p>int startbyte;<br />
+int userInput[3];<br />
+int i;<br />
+int red = 0;<br />
+int green = 0;<br />
+int blue = 0;</p>
+<p>void setup()  {<br />
+  Serial.begin(57600); // initialize serial connection<br />
+}</p>
+<p>void loop()  {<br />
+  if (Serial.available() &gt; 3) {<br />
+    // Read the first byte<br />
+    startbyte = Serial.read();<br />
+    // If it's really the startbyte (0x73 or ASCII &quot;s&quot;) ...<br />
+    if (startbyte == 0x73) {<br />
+      // ... then get the next three bytes<br />
+      for (i=0;i&lt;3;i++) {<br />
+        userInput[i] = Serial.read();<br />
+        //if (userInput[i] == ) {break;} // just in case<br />
+      }<br />
+      // First byte = red<br />
+      red = userInput[0];<br />
+      // Second byte = green<br />
+      green = userInput[1];<br />
+      // Third byte = blue<br />
+      blue = userInput[2];<br />
+    }<br />
+    analogWrite(redPin, red % 255); // mod 255 just in case<br />
+    analogWrite(grnPin, green % 255);<br />
+    analogWrite(bluPin, blue % 255);<br />
+    // some serial output for debugging:<br />
+    Serial.print(&quot;red: &quot;);<br />
+    Serial.println(red);<br />
+    Serial.print(&quot;green: &quot;);<br />
+    Serial.println(green);<br />
+    Serial.print(&quot;blue: &quot;);<br />
+    Serial.println(blue);<br />
+    Serial.println(&quot;------------&quot;);<br />
+  }<br />
+}<br />
+[/sourcecode]</p>

@@ -1,0 +1,32 @@
+---
+layout: post
+title: Laser Diode Protection Circuit
+date: 2013-07-08 09:32:17.000000000 -07:00
+type: post
+published: true
+status: publish
+categories:
+- Designs
+- experiments
+- making
+- optics
+- physics
+- try this at home
+tags: []
+meta:
+  _edit_last: '506905'
+  publicize_twitter_user: DrDawes
+  _wpas_done_12051: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:30146915;b:1;}}
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>[caption id="attachment_775" align="alignleft" width="150"]<a href="http://dawes.files.wordpress.com/2013/07/screen-shot-2013-07-06-at-6-08-44-pm.png"><img class="size-thumbnail wp-image-775" alt="PCB for laser diode protection circuit" src="{{ site.baseurl }}/assets/screen-shot-2013-07-06-at-6-08-44-pm.png?w=150" width="150" height="119" /></a> PCB for laser diode protection circuit[/caption]</p>
+<p>Our lab is building our fourth and fifth lasers so I finally got around to documenting some of the process. I'll be posting related items here in order to share the lore and hopefully help others get to a finished working laser. This installment covers our standard laser protection board [1]. This is a small circuit board that is installed between the laser current supply and the laser diode itself. Specifically, the board is as close to the diode as practical in order to provide maximum protection from voltage spikes, surges, and other nasty stuff. The circuit is pretty simple, a filter reduces noise, three forward diodes will not conduct for normal operation (they won't conduct until the voltage hits 2.1V which is higher than most laser diode operating voltages). There is also a Schottky diode at reversed polarity to provide fast shorting for spikes of the opposite polarity.</p>
+<p>The board is simple, and you could certainly make one on some sort of perfboard, but I went ahead and put together a PCB as an excuse to play with <a href="http://circuits.io">circuits.io</a> — a handy site that combines schematic capture, PCB layout, and board ordering in one online interface.</p>
+<p>The PCB and schematic are available for our <a href="http://www.circuits.io/circuits/4354">Laser Diode Protection Circuit</a>, and you can order all the parts from our <a href="http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=82bec0eef7">Mouser Project</a>. You may have many of the parts already, and the board is 100% through-hole so you can hack it to your hearts content.</p>
+<p>[1] Many folks use this circuit, I first saw it in the paper by <a href="http://ajp.aapt.org/resource/1/ajpias/v60/i12/p1098_s1">MacAdam</a> et al., and subsequently in a design specified by <a href="http://atomoptics.uoregon.edu/unilaser/unibody_files/peripherals/protection_circuit/meyrath_03.pdf">Todd Meyrath</a>. Please correct me if I should cite someone else.</p>

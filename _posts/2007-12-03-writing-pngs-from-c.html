@@ -1,0 +1,61 @@
+---
+layout: post
+title: Writing PNGs from C++
+date: 2007-12-03 08:54:28.000000000 -08:00
+type: post
+published: true
+status: publish
+categories:
+- computing
+- open source software
+tags:
+- array
+- c++
+- matlab
+- png
+meta:
+  _edit_last: '506905'
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p><img src="{{ site.baseurl }}/assets/hexagons.png" alt="hexagons" width="80" align="left" />To continue the series on using <a href="http://dawes.wordpress.com/2007/10/30/matlab-cc/" title="MATLAB &#x2192; C++ &laquo; The Daily Photon">C++ to replace MATLAB</a>, here are some details about using the <a href="http://pngwriter.sourceforge.net/" title="PNGwriter - An easy to use C++ graphics library">pngwriter</a> library. Included below is a function that I use in various places to write a 2D array to a png file. This can be left in a header somewhere and used in a similar way to MATLAB's <code>imagesc()</code> function.</p>
+<p>I'd be happy to post more details if anyone is interested, and I'll try to keep up with posts about the process I followed to port from MATLAB to C++.</p>
+<p><!--more--></p>
+<p>Assume the array <code>field</code> is square with <code>size</code> by <code>size</code> elements. There is a peak-finding routine used to normalize the color map, and I call <code>png.plot_text</code> to write the value of <code>max</code> in the image:</p>
+<p><code></p>
+<pre>
+  void array_to_png (char* filename, int size, array2 &amp;field)
+  {
+    char text[30];
+    int i,j;
+    double pixel;
+    pngwriter png(size,size,0,filename);
+    // Peak-finding for image scaling:
+    double max = 1e-32; 
+    for (i = 0; i &lt; size; i++)
+    {
+      for (j = 0; j  max) max = real(field(i,j)*conj(field(i,j)));
+      }
+    }
+
+    // Image writeout.
+    for (i = 0; i &lt; size; i++)
+    {
+      for (j = 0; j &lt; size; j++)
+      {
+        pixel = real(field(i,j)*conj(field(i,j)));
+        png.plot(i,j,pixel/max,pixel/max,0.0);
+      }
+    }
+
+    sprintf(text, "%f7", max);
+    png.plot_text("/xtmp/dawes/share/pngwriter/fonts/FreeMonoBold.ttf",10,10,10,0.0,text,1.0,1.0,1.0);
+    png.close();
+  }
+</pre>
+<p></code></p>
+<p>The only other detail is that this image will be yellow because I've passed equal values to the R and G parameters (B=0) in the call to <code>png.plot()</code>.</p>

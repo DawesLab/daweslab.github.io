@@ -1,0 +1,29 @@
+---
+layout: post
+title: Inkscape clipboard fix on mac
+date: 2015-10-19 10:42:00.000000000 -07:00
+type: post
+published: true
+status: publish
+categories:
+- physics
+tags: []
+meta:
+  _rest_api_client_id: "-1"
+  _rest_api_published: '1'
+  _publicize_job_id: '15984402375'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:12051;s:53:"https://twitter.com/DrDawes/status/656134645822590980";}}
+  _publicize_done_15130: '1'
+  _wpas_done_12051: '1'
+  publicize_twitter_user: DrDawes
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>Inkscape is my go-to vector editing program and I've done many publication figures, exam questions, and other general work in inkscape on both mac and linux. I've always just resigned to use clone (ctrl-D) instead of copy/paste since on the mac, the copy/paste cycle results in a pixelated image being pasted into the document. After beating my head against a wall trying to create a pattern-on-path effect, I realized that there must be something wrong with the clipboard implementation on the mac. Sure enough, a quick search took me to the <a href="http://wiki.inkscape.org/wiki/index.php/FAQ#Copying_and_pasting_in_Inkscape_creates_pixellated_images_instead_of_copying_the_vector_objects">inkscape FAQ</a>, and this section in particular:</p>
+<blockquote><p>Starting with XQuartz 2.3.2, X11 has some functionality to exchange the content of the clipboard with OS X. It currently does not know how to deal with vector images, so it just captures the screen, <i>i.e.</i>, creates a bitmap copy, and then pastes that. You need to deactivate this functionality in X11 preferences &gt; Pasteboard: uncheck "Update Pasteboard when CLIPBOARD changes". However, this will also prevent copying text from any X11 application to Mac OS X ones. It will not prevent copying text from OS X to X11.</p>
+<p>When you just want to make a copy of an object within Inkscape, you can also use <i>duplicate</i> (Ctrl-D) rather than <i>copy/paste</i> (Ctrl-C/Ctrl-V) — <i>Duplicate</i> does not interact with the X11/OSX clipboards. For other Inkscape commands involving the system clipboards (<i>e.g.</i>, <i>Paste Style</i>, <i>Paste Size</i> or <i>Paste Path</i> in path effects) there is no alternative workaround other than changing the X11/XQuartz preferences as described above.</p></blockquote>
+<p>On the bright side, I had found the suggested workaround, and was able to effectively duplicate items in my drawings. However, that doesn't work when the effects are expected paths in the clipboard (and they weren't there). Since inkscape is about the only thing I use X11 for on the mac, I went ahead and disabled the X11-mac clipboard sync. I will dive in the the nuanced solutions if I need to. It's been a blessing to have access to many of the path effects and other cool tools in recent inkscape versions.</p>

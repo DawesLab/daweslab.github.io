@@ -1,0 +1,38 @@
+---
+layout: post
+title: FFTW on Mac
+date: 
+type: post
+published: false
+status: draft
+categories:
+- computing
+- open source software
+- optics
+- physics
+- python
+- tips &amp; tricks
+tags:
+- fft
+- fftw
+- fourier
+- mac
+- numerical libraries
+- python
+- python distribution
+- transform
+meta:
+  _edit_last: '506905'
+author:
+  login: adawes
+  email: dawes@pacificu.edu
+  display_name: AMCDawes
+  first_name: ''
+  last_name: ''
+---
+<p>The macports libraries were compiled with the following configure options:</p>
+<pre>--enable-threads --disable-fortran --enable-shared</pre>
+<p>and cflags:</p>
+<pre>-fno-common -O3 -fomit-frame-pointer -fstrict-aliasing</pre>
+<p>When I use these options with gcc 4.2 and compile FFTW libraries, the pyFFTW tests come back slower than with the macports libraries. This is strange and I must be missing something else.</p>
+<p>With my local-compile, the pyFFTW test (Complex64FFTWTest) runs in 13.55 ms (versus 25.91 for numpy.fft). Using macports libraries, the pyFFTW test runs in 5.75 ms (versus 25.78 ms for numpy.fft).</p>
