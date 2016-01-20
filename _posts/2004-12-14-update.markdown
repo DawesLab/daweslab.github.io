@@ -1,0 +1,14 @@
+---
+author: adawes
+comments: true
+date: 2004-12-14 13:53:00+00:00
+layout: post
+slug: update
+title: Update
+wordpress_id: 40
+categories:
+- more about me
+- stories and anecdotes
+---
+
+Having been over a month since the last little blurb, it's time for an update. We had a great visit with Leslie's parents and were able to show them around all the really cool parts of Durham that we've discovered in the past few years. Of course Bullocks and Elmo's were on the list of dining experiences, and tours of the downtown rennovations and the ballpark were also included. It's less than two weeks until we fly to california for the Christmas weekend.On a work related note, results have started to go our way in the lab and the long sought after low-light switching effects are reproducable at last. I'll explain more on the project page after I come across some free time.Happy holidays all and best wishes for the new year!

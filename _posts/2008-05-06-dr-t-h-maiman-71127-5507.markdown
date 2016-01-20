@@ -1,0 +1,18 @@
+---
+author: adawes
+comments: true
+date: 2008-05-06 05:24:41+00:00
+layout: post
+slug: dr-t-h-maiman-71127-5507
+title: Dr. T. H. Maiman (7/11/27 - 5/5/07)
+wordpress_id: 138
+categories:
+- physics
+- stories and anecdotes
+tags:
+- invention
+- laser
+- ruby
+---
+
+[![Dr. T. H. Maiman](http://dawes.files.wordpress.com/2008/05/maiman.jpg)](http://dawes.files.wordpress.com/2008/05/maiman.jpg)I'm currently attending the [CLEO/QELS](http://www.cleoconference.org) conference in San Jose, CA. Yesterday there was a symposium honoring the late Ted Maiman, who was the first person to successfully build and operate a Laser. After the symposium, I was doing some follow-up reading on Wikipedia and discovered that the timing of this memorial session was very coincidental. Ted passed away a year ago today, and his famous invention, according to his notebook, took place almost exactly 48 years ago (May 16, 1960). For the Conference on Lasers and Electro-Optics to take place between these dates is highly appropriate, and it has been interesting to consider the conference within the context of the historical origins of the laser. Hopefully Ted would be impressed with what we have all come up with using his invention.

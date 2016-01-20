@@ -1,0 +1,19 @@
+---
+author: adawes
+comments: true
+date: 2010-06-15 13:55:29+00:00
+layout: post
+slug: mot
+title: MOT!
+wordpress_id: 351
+categories:
+- college
+- experiments
+- optics
+- physics
+- teaching
+---
+
+The miniMOT system arrived in the lab last week and today we have successfully trapped our first cloud of atoms. The picture above shows a glowing ball of atoms that is roughly 5 mm in diameter. In the next few days we will characterize and optimize our atom trap. Stay tuned for density and temperature information.
+
+<span class="caption">](http://dawes.files.wordpress.com/2010/07/shapeimage_2-2.png)</span>
