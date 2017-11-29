@@ -178,7 +178,7 @@
   <wp:term_id>2963377</wp:term_id>
   <wp:category_nicename>stories-anecdotes</wp:category_nicename>
   <wp:category_parent/>
-  <wp:cat_name><![CDATA[stories &amp; anecdotes]]></wp:cat_name>
+  <wp:cat_name><![CDATA[stories and anecdotes]]></wp:cat_name>
 </wp:category>
 <wp:category>
   <wp:term_id>1591</wp:term_id>
@@ -190,7 +190,7 @@
   <wp:term_id>3301</wp:term_id>
   <wp:category_nicename>tips-tricks</wp:category_nicename>
   <wp:category_parent/>
-  <wp:cat_name><![CDATA[tips &amp; tricks]]></wp:cat_name>
+  <wp:cat_name><![CDATA[tips and tricks]]></wp:cat_name>
 </wp:category>
 <wp:category>
   <wp:term_id>1006934</wp:term_id>
@@ -1083,7 +1083,7 @@
 <wp:tag>
   <wp:term_id>3301</wp:term_id>
   <wp:tag_slug>tips-tricks</wp:tag_slug>
-  <wp:tag_name><![CDATA[tips &amp; tricks]]></wp:tag_name>
+  <wp:tag_name><![CDATA[tips and tricks]]></wp:tag_name>
 </wp:tag>
 <wp:tag>
   <wp:term_id>106881</wp:term_id>
@@ -3680,7 +3680,7 @@ There has been a lot of talk about text editors so I won't disillusion myself by
   <wp:post_type>post</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
 </item>
 <item>
   <title>Thunderbird is so smart</title>
@@ -3710,7 +3710,7 @@ Just after realizing that I didn't hit the delete key and instead hit enter, and
   <wp:is_sticky>0</wp:is_sticky>
   <category domain="category" nicename="computing"><![CDATA[computing]]></category>
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
 </item>
 <item>
   <title>A Physicist Birthday</title>
@@ -3779,7 +3779,7 @@ Just after realizing that I didn't hit the delete key and instead hit enter, and
   <wp:post_type>post</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:comment>
     <wp:comment_id>108</wp:comment_id>
     <wp:comment_author><![CDATA[D]]></wp:comment_author>
@@ -3844,7 +3844,7 @@ And this is how I use it (right there in the regular print dialog)
   <category domain="post_tag" nicename="pdf-services"><![CDATA[PDF Services]]></category>
   <category domain="post_tag" nicename="printing"><![CDATA[printing]]></category>
   <category domain="post_tag" nicename="ssh"><![CDATA[ssh]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
 </item>
 <item>
   <title>Settling In</title>
@@ -3940,7 +3940,7 @@ And this is how I use it (right there in the regular print dialog)
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
   <category domain="category" nicename="more-about-me"><![CDATA[more about me]]></category>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
   <wp:postmeta>
     <wp:meta_key>blogger_blog</wp:meta_key>
     <wp:meta_value><![CDATA[bogofoo.blogspot.com]]></wp:meta_value>
@@ -4051,7 +4051,7 @@ Now if only we had some rational people around to run the country...]]></content
   <wp:post_type>post</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
   <wp:postmeta>
     <wp:meta_key>blogger_blog</wp:meta_key>
     <wp:meta_value><![CDATA[bogofoo.blogspot.com]]></wp:meta_value>
@@ -4316,11 +4316,11 @@ Now I'll keep this problem in mind because this is not a conclusive proof of the
   <dc:creator>adawes</dc:creator>
   <guid isPermaLink="false">http://dawes.wordpress.com/2007/09/06/new-blog-name/</guid>
   <description/>
-  <content:encoded><![CDATA[A quick google blog search revealed I was nowhere near as clever as I thought for naming this blog <em>clevertitlehere</em>. To remedy this I've elected to call this publication <em>The Daily Photon</em>. Being a physicist I just had to use up an <a href="http://en.wikipedia.org/wiki/Back-of-the-envelope_calculation" title="Back-of-the-envelope calculation - Wikipedia, the free encyclopedia">envelope</a> for some quick math. <em>The Daily Photon</em> implies one photon every 24 hours (yes those photons work around the clock!). This <a href="http://www.google.com/search?hl=en&amp;safe=off&amp;client=safari&amp;rls=en&amp;q=2+ev+per+day+in+watts&amp;btnG=Search" title="Google">corresponds</a> to less than 4 yoctowatts or
+  <content:encoded><![CDATA[A quick google blog search revealed I was nowhere near as clever as I thought for naming this blog <em>clevertitlehere</em>. To remedy this I've elected to call this publication <em>The Daily Photon</em>. Being a physicist I just had to use up an <a href="http://en.wikipedia.org/wiki/Back-of-the-envelope_calculation" title="Back-of-the-envelope calculation - Wikipedia, the free encyclopedia">envelope</a> for some quick math. <em>The Daily Photon</em> implies one photon every 24 hours (yes those photons work around the clock!). This <a href="http://www.google.com/search?hl=enandsafe=offandclient=safariandrls=enandq=2+ev+per+day+in+wattsandbtnG=Search" title="Google">corresponds</a> to less than 4 yoctowatts or
 <p align="center">$latex 4\times10^{-24}~\mathrm{Watts}$</p>
 Now, I have no pretensions of publishing a powerful blog but I really had no idea it would be this weak.
 <!--more-->
-As a side note, if you're curious how I got $latex \LaTeX&amp;s=-1$ into my wordpress blog, then check out <a href="http://wordpress.com/blog/2007/02/17/math-for-the-masses/" title="Math for the Masses « WordPress.com">Math for the Masses</a>. I'm proud to say I actually went to high school with the guy who added this feature to wordpress, rock on mdawaffe!]]></content:encoded>
+As a side note, if you're curious how I got $latex \LaTeXands=-1$ into my wordpress blog, then check out <a href="http://wordpress.com/blog/2007/02/17/math-for-the-masses/" title="Math for the Masses « WordPress.com">Math for the Masses</a>. I'm proud to say I actually went to high school with the guy who added this feature to wordpress, rock on mdawaffe!]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>66</wp:post_id>
   <wp:post_date>2007-09-06 14:11:49</wp:post_date>
@@ -4576,8 +4576,8 @@ UPDATE 11-28-07: I have posted <a href="http://dawes.wordpress.com/2007/11/27/ma
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="post_tag" nicename="physics"><![CDATA[physics]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
-  <category domain="post_tag" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
+  <category domain="post_tag" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <category domain="post_tag" nicename="widget"><![CDATA[widget]]></category>
   <wp:postmeta>
     <wp:meta_key>_oembed_0773ec8ddc77f6b527940c2f34d04c81</wp:meta_key>
@@ -4585,7 +4585,7 @@ UPDATE 11-28-07: I have posted <a href="http://dawes.wordpress.com/2007/11/27/ma
   </wp:postmeta>
 </item>
 <item>
-  <title>BibDesk &amp; Google Scholar</title>
+  <title>BibDesk and Google Scholar</title>
   <link>https://dawes.wordpress.com/2007/11/24/bibdesk-google-scholar/</link>
   <pubDate>Sat, 24 Nov 2007 13:37:41 +0000</pubDate>
   <dc:creator>adawes</dc:creator>
@@ -4714,16 +4714,16 @@ I have toyed with the idea of tagging bibdesk entries with a folder number or ke
 <pre>
 for (i = 0; i &lt; N; i++){
   for (j = 0; j &lt; N; j++){
-    if (i &lt; N/2 &amp;&amp; j &lt; N/2){
+    if (i &lt; N/2 andand j &lt; N/2){
       expDz(i,j) = exp(-I*(zstep/(2*sigma)*(((i)*kxstep*(i)*kxstep) 
                        + ((j)*kystep*(j)*kystep))));
-    } else if (i &lt; N/2 &amp;&amp; j &gt;= N/2){
+    } else if (i &lt; N/2 andand j &gt;= N/2){
       expDz(i,j) = exp(-I*(zstep/(2*sigma)*(((i)*kxstep*(i)*kxstep) 
                        + ((j-N)*kystep*(j-N)*kystep))));
-    } else if (i &gt;= N/2 &amp;&amp; j &lt; N/2){
+    } else if (i &gt;= N/2 andand j &lt; N/2){
       expDz(i,j) = exp(-I*(zstep/(2*sigma)*(((i-N)*kxstep*(i-N)*kxstep) 
                        + ((j)*kystep*(j)*kystep))));
-    } else if (i &gt;= N/2 &amp;&amp; j &gt;= N/2){
+    } else if (i &gt;= N/2 andand j &gt;= N/2){
       expDz(i,j) = exp(-I*(zstep/(2*sigma)*(((i-N)*kxstep*(i-N)*kxstep) 
                        + ((j-N)*kystep*(j-N)*kystep))));
     } else {
@@ -4803,7 +4803,7 @@ merci]]></wp:comment_content>
 
 If you have already separated a nail, or two, or generally jambed-up your fingers trying to remove one of these things, then you know what I mean. If not, then wait until your firstborn is crawling, you'll discover that outlet covers, carefully designed to keep stuff out of outlets, really do work!
 
-There are even patents issued for <a href="http://www.google.com/patents?id=q94hAAAAEBAJ&amp;dq=5469614" title="Patent 5469614">devices to remove them</a> (tip #2: don't use a knife, if that is your solution, then you should install them even without a toddler in the house).
+There are even patents issued for <a href="http://www.google.com/patents?id=q94hAAAAEBAJanddq=5469614" title="Patent 5469614">devices to remove them</a> (tip #2: don't use a knife, if that is your solution, then you should install them even without a toddler in the house).
 
 <!--more-->
 
@@ -4867,7 +4867,7 @@ The trick is simple, don't take it out the way you would expect to, <em>i.e.</em
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="post_tag" nicename="quicksilver"><![CDATA[quicksilver]]></category>
   <category domain="post_tag" nicename="textmate"><![CDATA[textmate]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:comment>
     <wp:comment_id>99</wp:comment_id>
     <wp:comment_author><![CDATA[DataGraph gets LaTeX &laquo; The Daily Photon]]></wp:comment_author>
@@ -4941,7 +4941,7 @@ The trick is simple, don't take it out the way you would expect to, <em>i.e.</em
 
 <code>
 <pre>
-  void array_to_png (char* filename, int size, array2 &amp;field)
+  void array_to_png (char* filename, int size, array2 andfield)
   {
     char text[30];
     int i,j;
@@ -5207,7 +5207,7 @@ To prove the existence of photons, one should turn to experiments that utilize i
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="post_tag" nicename="perian"><![CDATA[perian]]></category>
   <category domain="post_tag" nicename="png"><![CDATA[png]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:comment>
     <wp:comment_id>132</wp:comment_id>
     <wp:comment_author><![CDATA[adawes]]></wp:comment_author>
@@ -5719,7 +5719,7 @@ From http://ubuntuforums.org/showthread.php?t=439638]]></wp:comment_content>
   <category domain="category" nicename="latex"><![CDATA[latex]]></category>
   <category domain="post_tag" nicename="mac"><![CDATA[mac]]></category>
   <category domain="post_tag" nicename="plotting"><![CDATA[plotting]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
 </item>
 <item>
   <title>Fimo fractals and fancy fiber</title>
@@ -5808,7 +5808,7 @@ From http://ubuntuforums.org/showthread.php?t=439638]]></wp:comment_content>
   <category domain="post_tag" nicename="pbs"><![CDATA[pbs]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="post_tag" nicename="science"><![CDATA[science]]></category>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
 </item>
 <item>
   <title>Job Search: he shoots, he scores!</title>
@@ -6003,7 +6003,7 @@ From http://ubuntuforums.org/showthread.php?t=439638]]></wp:comment_content>
     <wp:comment_content><![CDATA[The templates that come with TeXShop include one for fonts. This is but one of the four alternatives:
 
 % Fourier for math | Utopia (scaled) for rm | Helvetica for ss | Latin Modern for tt
-\usepackage{fourier} % math &amp; rm
+\usepackage{fourier} % math and rm
 \usepackage[scaled=0.875]{helvet} % ss
 \renewcommand{\ttdefault}{lmtt} %tt
 
@@ -6085,7 +6085,7 @@ Of course, the nicer solution is to use XeLaTeX (http://en.wikipedia.org/wiki/Xe
   <category domain="post_tag" nicename="dissertation"><![CDATA[dissertation]]></category>
   <category domain="post_tag" nicename="graduate"><![CDATA[graduate]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -6251,7 +6251,7 @@ Now you can get some sleep.]]></wp:comment_content>
   </wp:comment>
   <wp:comment>
     <wp:comment_id>136</wp:comment_id>
-    <wp:comment_author><![CDATA[Susan &amp; Juan]]></wp:comment_author>
+    <wp:comment_author><![CDATA[Susan and Juan]]></wp:comment_author>
     <wp:comment_author_email>suejuanvilla@sbcglobal.net</wp:comment_author_email>
     <wp:comment_author_url/>
     <wp:comment_author_IP>99.164.43.41</wp:comment_author_IP>
@@ -6364,7 +6364,7 @@ Tom G.]]></wp:comment_content>
   <category domain="post_tag" nicename="subversion"><![CDATA[subversion]]></category>
   <category domain="post_tag" nicename="svn"><![CDATA[svn]]></category>
   <category domain="post_tag" nicename="thesis"><![CDATA[thesis]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <category domain="category" nicename="try-this-at-home"><![CDATA[try this at home]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
@@ -6583,7 +6583,7 @@ I'm happy to answer any questions about it, but I was an svn newbie when I start
   <category domain="post_tag" nicename="laser"><![CDATA[laser]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="post_tag" nicename="ruby"><![CDATA[ruby]]></category>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -6840,7 +6840,7 @@ are by car. It's really a perfect idea!]]></wp:comment_content>
   <category domain="category" nicename="latex"><![CDATA[latex]]></category>
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="post_tag" nicename="svn-latex-iwork"><![CDATA[svn latex iwork]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -6910,7 +6910,7 @@ Thanks!]]></wp:comment_content>
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="post_tag" nicename="python-enthought-visualization"><![CDATA[python enthought visualization]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -7166,8 +7166,8 @@ I must say the choice of Nature of publishing my Correspondence, while flatterin
   <category domain="post_tag" nicename="mac"><![CDATA[mac]]></category>
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="post_tag" nicename="pdf"><![CDATA[PDF]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
-  <category domain="post_tag" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
+  <category domain="post_tag" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -7627,7 +7627,7 @@ With my local-compile, the pyFFTW test (Complex64FFTWTest) runs in 13.55 ms (ver
   <category domain="post_tag" nicename="python"><![CDATA[python]]></category>
   <category domain="category" nicename="python"><![CDATA[python]]></category>
   <category domain="post_tag" nicename="python-distribution"><![CDATA[python distribution]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <category domain="post_tag" nicename="transform"><![CDATA[transform]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
@@ -9178,7 +9178,7 @@ Here is an example along with some quick tips I've found along the way. Hopefull
 
 <!--more-->
 <h3>Nice EPS output:</h3>
-[sourcecode]
+{% highlight python %}
 h = figure;
 set (h,'papertype', '&lt;custom&gt;')
 set (h,'paperunits','inches');
@@ -9190,15 +9190,15 @@ plot(rand(50,1))
 xlabel('Time (s)')
 ylabel('Velocity (m/s)')
 print('figure.eps','-deps')
-[/sourcecode]
+{% endhighlight %}
 
 The commands here select the papertype (as custom) and use inch units (could be 'centimeters' too). Next, set the paper size (figure size) and the position on the paper. The coordinates for paper position are [left bottom width height]. The default axes position is similar, although now in normalized units (between 0 and 1). I like the look of these axes, and there isn't too much whitespace. I also like a clear legible font size (14 in this example). The rest are some axes labels.
 <h3>Nice PDF plots</h3>
 PDF plots are still problematic because it seems like I have to run an extra step. Either I can convert the EPS to PDF, or I can export PDF and then crop the PDF so the whole page isn't showing. For the former option, I just open the EPS in Preview.app and save as a PDF (this gives me the intermediate preview step for free). For the latter option, I have found pdfcrop useful. This is a little utility that ships wih TeX-Live which I have installed as part of MacTex 2008. There is a newer version <a title="MacTex 2009" href="http://www.tug.org/mactex/2009/">MacTex 2009</a>. In any case, the only major difference is the final print command:
 
-[sourcecode]
+{% highlight python %}
 print('figure.pdf','-dpdf')
-[/sourcecode]
+{% endhighlight %}
 
 If you have a more elegant solution, please let me know. I think better PDF exports are on the list for Octave development but the current priority (in terms of graphics output) seems to be breaking away from Gnuplot and allowing other graphics backends. In general, this is a good thing. I love Gnuplot, but there are certainly uses where Gnuplot isn't the best tool in the toolbox.
 
@@ -9224,7 +9224,7 @@ Endnote: I'm using Octave 3.2.2 and Gnuplot 4.2 patchlevel 5 on a PPC mac. These
   <category domain="post_tag" nicename="pdf"><![CDATA[PDF]]></category>
   <category domain="post_tag" nicename="plot"><![CDATA[plot]]></category>
   <category domain="category" nicename="teaching"><![CDATA[teaching]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -9412,7 +9412,7 @@ Finally, another useful option is logging the ldap protocol traffic from Thunder
 #!/bin/sh
 export NSPR_LOG_MODULES=ldap:5
 export NSPR_LOG_FILE=ldap.log
-/Applications/Thunderbird.app/Contents/MacOS/thunderbird-bin &amp;</pre>
+/Applications/Thunderbird.app/Contents/MacOS/thunderbird-bin and</pre>
 Which will log traffic to ldap.log for later viewing.
 
 UPDATE (10-4-10): I have found a new and improved way to access exchange LDAP from thunderbird (or any other standards-compliant client). Read more in my <a href="http://dawes.wordpress.com/2010/10/05/davmail-for-exchange-email-and-contacts/">DavMail post</a>.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ]]></content:encoded>
@@ -9831,7 +9831,7 @@ My first test, however, was just getting the LCD to work. And then, I wanted to 
 
 <!--more-->As of this weekend, the whole system is working, although not yet installed. I'm running an Arduino as the LCD controller, but really it's just reading serial from the computer and writing serial to the LCD, so I'm sure there is a more efficient way (I'll work on that for v2.0). The arduino code is given below:
 
-[sourcecode]
+{% highlight python %}
 
 #include &lt;SoftwareSerial.h&gt;
 
@@ -9858,11 +9858,11 @@ void loop()
  }
 }
 
-[/sourcecode]
+{% endhighlight %}
 
 I like <a title="Python programming language" href="http://www.python.org">python</a>, so I used it for the computer end of the project. The only things I had to figure out were how to write hex bytes to the serial port, and how the LCD memory was laid out. I wanted it to be a bit fancier than stock so I wrote two functions, one that scrolls the text across the LCD and one that pages it up line by line. This is necessary since twitter runs up to 140 characters and I can only show 32 on the LCD (at a time).
 
-[sourcecode]
+{% highlight python %}
 #!/usr/bin/env python
 # encoding: utf-8
 &quot;&quot;&quot;
@@ -9957,7 +9957,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-[/sourcecode]
+{% endhighlight %}
 
 You can see the two functions scrollText() and pageText() are responsible for cursor control and text movement. I'm still not sure which one I like better, but feel free to use these if you want them. The strange characters are pythons way of sending hex bytes as strings. The LCD uses the standard HD44780 controller, so there are special commands for controlling the LCD. For example, sending the string "\xFE\x01" in python sends two hex bytes: 0xFE and then 0x01. This happens to be the command to clear the LCD screen. The cursor motion is controlled in a similar way, with address locations following the \xFE byte. 0x80 is the first position so I send \xFE\x80 to move the cursor there. Similarly, \x90 is the 17th horizontal position in the top line, not viewable without scrolling and \xA0 is the 33rd position in the top line. There are 40 positions in each line (2 rows in my case) so the scrolling text function checks for this and wraps the cursor accordingly.
 
@@ -11208,7 +11208,7 @@ For what it's worth, the code is attached below. The relevant functions are scip
 
 Image analysis:
 
-[sourcecode]
+{% highlight python %}
 from pylab import imshow, figure, zeros, plot
 from scipy.misc import imread
 from scipy.ndimage.interpolation import rotate
@@ -11232,11 +11232,11 @@ for i in range(10): # take ten slices
 
 plot(total) # plot the data
 savetxt(&quot;Jefferson-v2.dat&quot;, total) # save the data to a file
-[/sourcecode]
+{% endhighlight %}
 
 Relaxation method:
 
-[sourcecode]
+{% highlight python %}
 from scipy.misc import imread
 from pylab import gray, imshow, plot, show, semilogy
 from scipy import zeros, sum
@@ -11267,7 +11267,7 @@ for round in range(runs):
 
 total = sum(mesh, axis=2) # Sum the potential through the whole region. This was to see if the light generated is proportional to the potential. It is more likely that the light is proportional to the field strength so more calculation will be required.
 semilogy(total[:,sizex/2]) # plot a slice through the center of the region
-[/sourcecode]
+{% endhighlight %}
 
 I should point out that one interesting feature of this code is that is uses an image to provide the initial conditions for the Laplace solver. This means that the code could be easily adapted to a wide variety of situations and you could quickly explore all sorts of funky shapes.
 
@@ -11525,7 +11525,7 @@ The last example requires software that is not available in the EPD, but it is v
 
 I have helped several students get started using python (SciPy in particular) and each of them have commented positively on how easy it is to learn and to keep using. I'll have a few python projects that I will post here as they mature. In the meantime, enjoy these links and happy coding.
 <h3>Import data and plot</h3>
-[sourcecode language="python"]
+{% highlight python %}
 from scipy import loadtxt
 from pylab import figure, plot, title, xlabel, ylabel, show
 
@@ -11544,11 +11544,11 @@ title(&quot;Cold Rb-87 Spectrum, F=2-&gt;F'&quot;)
 xlabel(&quot;Time (s)&quot;)
 ylabel(&quot;Transmission (Arb. Units)&quot;)
 show()
- [/sourcecode]
+ {% endhighlight %}
 
 This code loads columns 3 and 4 (zero indexed) from a csv file. In this case it is a file saved by a Tektronix scope (TEK0006.CSV). The time and voltage data are named to make calculations more transparent. Finally, the voltage is scaled to its own max. In this case, the signal is a spectroscopic transmission so to convert to transmission, we just scale to the max and call that 1 (full transmission). Finally, we plot with some labels and a title.
 <h3>Fit with arbitrary function</h3>
-[sourcecode language="python"]
+{% highlight python %}
 from numpy import linspace, exp, random
 from pylab import plot, show
 from scipy.optimize import curve_fit
@@ -11568,11 +11568,11 @@ print &quot;c = &quot;, c, &quot; var_c = &quot;, covar[2,2]
 plot(x, yn)
 plot(x, func(x, *[a,b,c]), '-k')
 show()
-[/sourcecode]
+{% endhighlight %}
 
 First, define a function with some variables (a, b, c). As a demo, we have to generate some data, so we take the function and add some random noise. In an experimental situation, you could import data as in the prior example, and play with fitting against the actual data. Finally, output the covar elements from curve_fit to find the uncertainty in the three fit parameters. Students love this since usually the do curve fitting in excel and then complain that they don't know the uncertainty in the fit. "Use better tools" I say, and here is one that's easy to use.
 <h3>Extract image intensity</h3>
-[sourcecode language="python"]
+{% highlight python %}
 from pylab import imshow, figure, zeros, plot
 from scipy.misc import imread
 from scipy.ndimage.interpolation import rotate
@@ -11596,7 +11596,7 @@ for i in range(10): # take ten slices
 
 plot(total) # plot the data
 savetxt(&quot;Jefferson-v2.dat&quot;, total) # save the data to a file
-[/sourcecode]
+{% endhighlight %}
 
 [caption id="attachment_431" align="alignleft" width="200" caption="Kirlian Photograph of a US Dime"]<a href="http://dawes.files.wordpress.com/2011/01/jefferson.jpg"><img class="size-medium wp-image-431" title="Corona Image of Dime" src="http://dawes.files.wordpress.com/2011/01/jefferson.jpg?w=200" alt="Dime Corona" width="200" height="300" /></a>[/caption]
 
@@ -11607,7 +11607,7 @@ This example isn't as obvious but it was a great example of how easy it can be t
 We wanted to model the effect so we needed something to compare to our models. Python imports the image using the imread function. Then we assign a center and crop the image to make it square. Finally, to build up a bunch of cross sections, we start taking slices and then rotating the image and take another slice. The slices are then averaged to give a nice smooth curve describing the corona brightness as a function of radius.
 <h3></h3>
 <h3>Propagate errors (uncertainty)</h3>
-[sourcecode language="python"]
+{% highlight python %}
 from uncertainties import ufloat
 from uncertainties.umath import *
 
@@ -11630,7 +11630,7 @@ P = ufloat(&quot;3.2e-9+/-0.5e-9&quot;)
 N = (P * tau)/(1.986e-16/wavelambda)
 
 print N
-[/sourcecode]
+{% endhighlight %}
 
 
 
@@ -11735,7 +11735,7 @@ The basic idea is that DavMail sets itself up as a middle-man. It can access the
   <category domain="post_tag" nicename="ldap"><![CDATA[ldap]]></category>
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="post_tag" nicename="thunderbird"><![CDATA[thunderbird]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -11790,13 +11790,13 @@ The basic idea is that DavMail sets itself up as a middle-man. It can access the
   </wp:comment>
 </item>
 <item>
-  <title>IBM Model M &amp; Mac</title>
+  <title>IBM Model M and Mac</title>
   <link>https://dawes.wordpress.com/2011/01/08/ibm-model-m-mac/</link>
   <pubDate>Sat, 08 Jan 2011 05:31:49 +0000</pubDate>
   <dc:creator>adawes</dc:creator>
   <guid isPermaLink="false">http://dawes.wordpress.com/?p=374</guid>
   <description/>
-  <content:encoded><![CDATA[[caption id="attachment_443" align="alignleft" width="150" caption="IBM Model M (1988)"]<a href="http://dawes.files.wordpress.com/2010/12/modelm.jpg"><img class="size-thumbnail wp-image-443" title="IBM Model M" src="http://dawes.files.wordpress.com/2010/12/modelm.jpg?w=150" alt="IBM Model M" width="150" height="84" /></a>[/caption]
+  <content:encoded><![CDATA[<span class="caption">"]<a href="http://dawes.files.wordpress.com/2010/12/modelm.jpg"><img class="size-thumbnail wp-image-443" title="IBM Model M" src="http://dawes.files.wordpress.com/2010/12/modelm.jpg?w=150" alt="IBM Model M" width="150" height="84" /></a></span>
 
 I have finally reunited my 1988 IBM model M keyboard with my primary computer. Currently, my desktop is an 8-core mac pro. I'm sure the keyboard has never had so much power at its disposal. It took some <a title="PS/2 to USB Adapter" href="http://www.clickykeyboards.com/index.cfm/fa/items.main/parentcat/11298/subcatid/0/id/124184">adapting</a>, and key re-mapping, but I'm typing this post to the classic cadence of buckling springs. "It's so choice, if you have the means, I highly recommend picking one up."
 
@@ -12116,7 +12116,7 @@ There is obviously a lot more to figure out but I would be happy to hear feedbac
   </wp:postmeta>
   <wp:postmeta>
     <wp:meta_key>_oembed_98dd2590e142616a91fd3795c9094401</wp:meta_key>
-    <wp:meta_value><![CDATA[<div class="embed-vimeo"><iframe src="http://player.vimeo.com/video/5513063?title=1&amp;byline=1&amp;portrait=1" width="497" height="280" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>]]></wp:meta_value>
+    <wp:meta_value><![CDATA[<div class="embed-vimeo"><iframe src="http://player.vimeo.com/video/5513063?title=1andbyline=1andportrait=1" width="497" height="280" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>]]></wp:meta_value>
   </wp:postmeta>
   <wp:postmeta>
     <wp:meta_key>_oembed_41ea7e49eaa8d6d9e6b735fd5ca874fa</wp:meta_key>
@@ -12322,7 +12322,7 @@ I've been working on some interactive color-mixing exhibits and pulled together 
 
 The color gamut is usually illustrated as in the following figure. I've reflected this to some degree in the code. Moving the mouse to the top of the control window gives green light, the bottom right corner is red, and bottom left corner is blue. There are non-trivial issues with mapping a curved triangle to a square; I've completely ignored these issues. In one sense, I've stretched and compressed the gamut as necessary to get it all to fit into a square on the control end. That said, this should be a pretty easy way to get any of the possible colors out of a set of three LEDs.
 
-[caption id="" align="alignnone" width="522" caption="By Spigget (Own work), CC-BY-SA-3.0 (www.creativecommons.org/licenses/by-sa/3.0) or GFDL, via Wikimedia Commons"]<a href="http://commons.wikimedia.org/wiki/File:Cie_Chart_with_sRGB_gamut_by_spigget.png"><img class=" " title="Color Gamut" src="http://upload.wikimedia.org/wikipedia/commons/6/60/Cie_Chart_with_sRGB_gamut_by_spigget.png" alt="gamut" width="522" height="583" /></a>[/caption]
+<span class="caption">, CC-BY-SA-3.0 (www.creativecommons.org/licenses/by-sa/3.0) or GFDL, via Wikimedia Commons"]<a href="http://commons.wikimedia.org/wiki/File:Cie_Chart_with_sRGB_gamut_by_spigget.png"><img class=" " title="Color Gamut" src="http://upload.wikimedia.org/wikipedia/commons/6/60/Cie_Chart_with_sRGB_gamut_by_spigget.png" alt="gamut" width="522" height="583" /></a></span>
 
 <h4>Hardware:</h4>
 I used a <a href="http://www.sparkfun.com/products/10111">Sparkfun KIT-10111</a> tri-LED breakout board. The Arduino provides power, serial in/out, and PWM control of the red/green/blue input pins on the 10111 board.
@@ -12331,7 +12331,7 @@ I used a <a href="http://www.sparkfun.com/products/10111">Sparkfun KIT-10111</a>
 The code is given below, I learned most of it from examples and looking through the processing API. This is my first project to use processing, and I first found myself wishing I had done it in python... but in the end, processing has some very slick ways to take input and to draw stuff. Since that is 90% of what I had to do here, it turned out to be a good fit.
 
 Processing code (this is the control "gui" for the project):
-[sourcecode language="cpp"]
+{% highlight cpp %}
 /**
  * RGB LED control
  * AMC Dawes (dawes@pacificu.edu)
@@ -12390,14 +12390,14 @@ void update(int x, int y)
   port.write(grnBright);
   port.write(bluBright);
 }
-[/sourcecode]
+{% endhighlight %}
 
 Load the following code onto your Arduino. You can test it with the serial monitor (be sure to set the baud rate correctly). Try sending control sequences like "saaa" or "s~~~" or "s!!!". The Arduino waits for an "s" (0x73) to indicate a control sequence. The next three bytes are red, green, and blue integers (0-255). The ASCII bytes associated with "a", "~" and "!" are 0x61, 0x7E, and 0x21 respectively. These are equivalent to decimal 97, 126, and 33. While these don't fill the 8-bit depth (decimal 0-255) they give you a good sense of being able to control the brightness. Of course, these examples would all have each LED light up by an equal amount (approximately). To make mostly red light up send: "s~!!". This would be approximately RGB (126,33,33) or for web designers out there #7E2121. The mouse interface in processing writes decimal integers between 0 and 255 to each LED so you should see one LED go dark as the mouse reaches the edge of the black window.
 
 The hardest part was debugging the processing code to make sure it was sending the right thing to the Arduino. It has been a while since I've used C++ for any byte-level stuff. A serial LCD helped a bit, but mostly is was old-fashioned trial and error. Overall the project took about two hours to hash through (not counting assembly time for the LED kit, which was ~ 1/2 hour). Enjoy, and as always, your comments and suggestions are greatly appreciated.
 
 Arduino code:
-[sourcecode language="cpp"]
+{% highlight cpp %}
 /*
 RGB color gamut (mouse control)
 
@@ -12461,7 +12461,7 @@ void loop()  {
     Serial.println(&quot;------------&quot;);
   }   
 }
-[/sourcecode]
+{% endhighlight %}
 ]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>448</wp:post_id>
@@ -12787,7 +12787,7 @@ http://majordecibel.blogspot.com/]]></wp:comment_content>
   <description/>
   <content:encoded><![CDATA[Google docs now allow latex equation editing. I don't know how long this has been around but I finally read the "New Features" page and it was listed there. I'm still adjusting to the new look of the home doc list, but this feature will be a great way to get our intro physics students to start typing equations correctly!
 
-Read more: <a href="http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=160749">Mathematical equations : General - Google Docs Help</a>.]]></content:encoded>
+Read more: <a href="http://docs.google.com/support/bin/answer.py?hl=enandanswer=160749">Mathematical equations : General - Google Docs Help</a>.]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>476</wp:post_id>
   <wp:post_date>2011-02-04 23:16:41</wp:post_date>
@@ -12936,7 +12936,7 @@ http://www.ted.com/talks/kathryn_schulz_on_being_wrong.html]]></content:encoded>
   <category domain="category" nicename="optics"><![CDATA[optics]]></category>
   <category domain="post_tag" nicename="pbs"><![CDATA[pbs]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
   <category domain="category" nicename="try-this-at-home"><![CDATA[try this at home]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
@@ -12956,7 +12956,7 @@ http://www.ted.com/talks/kathryn_schulz_on_being_wrong.html]]></content:encoded>
 
 Near a narrow resonance, an optical pulse can pass through a strongly-absorbing atomic vapor for the first few nanoseconds. The part of the pulse that makes it through the material is called a precursor. Our paper explores the form of the precursors as the carrier frequency is tuned off resonance.
 
-[caption id="attachment_508" align="alignleft" width="340" caption="Experimentally obtained transient transmission intensity (black solid lines) compared with two theoretical analysis: the asymptotic analysis (red dotted lines), and the weakly dispersive narrow resonance (blue dashed lines). Transient transmission taken near the 4S1/2 (F = 1) ↔ 4P1/2 (F = 2) transition for (a) ∆ = ∆(1) ∼ 5δ, (b) ∆ = ∆(2) ∼ δ, and (c) ∆ = ∆(3) ∼ 0."]<a href="http://dawes.files.wordpress.com/2011/07/precursor.png"><img class=" wp-image-508   " title="precursor" src="http://dawes.files.wordpress.com/2011/07/precursor.png" alt="Optical precursors" width="350" /></a>[/caption]]]></content:encoded>
+<span class="caption"> compared with two theoretical analysis: the asymptotic analysis (red dotted lines), and the weakly dispersive narrow resonance (blue dashed lines). Transient transmission taken near the 4S1/2 (F = 1) ↔ 4P1/2 (F = 2) transition for (a) ∆ = ∆(1) ∼ 5δ, (b) ∆ = ∆(2) ∼ δ, and (c) ∆ = ∆(3) ∼ 0."]<a href="http://dawes.files.wordpress.com/2011/07/precursor.png"><img class=" wp-image-508   " title="precursor" src="http://dawes.files.wordpress.com/2011/07/precursor.png" alt="Optical precursors" width="350" /></a></span>]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>504</wp:post_id>
   <wp:post_date>2011-07-23 09:08:54</wp:post_date>
@@ -13103,7 +13103,7 @@ I am interested in the possibility of catching some common exceptions and using 
   <content:encoded><![CDATA[<img class="alignleft" title="TI Launchpad" src="http://www.ti.com/ww/en/community/launchpad/4213.Emulator.gif" alt="" width="173" height="357" />I was excited to see the <a href="http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_%28MSP-EXP430G2%29">TI Launchpad</a> platform, especially given the low price ($4.30). Unfortunately, there are two troubling statements in their wiki... these are dealbreakers for a growing number of hobbyists:
 <blockquote>"There is currently no official support for the Linux operating system."</blockquote>
 <blockquote>"There is currently no official support for the Mac OS X operating system"</blockquote>
-While windows is still dominant in the electronics profession, the hobby crowd is much more varied. These issues will make it hard for the launchpad to compete with <a href="http://www.arduino.cc/">Arduino</a>. I'll probably order one to play with, but when I already have a dozen Arduinos (Arduini?) lying around, and the latest IDE on each of my computers (linux &amp; mac alike) it is hard to imagine going through much trouble just for a cheaper board. For me, the value of Arduino is in the community resources that are already out there. The codebase is huge, you can find thousands of great examples and tweak them to your particular use: search google or youtube for what you want to make, upload the code to arduino and you are done.
+While windows is still dominant in the electronics profession, the hobby crowd is much more varied. These issues will make it hard for the launchpad to compete with <a href="http://www.arduino.cc/">Arduino</a>. I'll probably order one to play with, but when I already have a dozen Arduinos (Arduini?) lying around, and the latest IDE on each of my computers (linux and mac alike) it is hard to imagine going through much trouble just for a cheaper board. For me, the value of Arduino is in the community resources that are already out there. The codebase is huge, you can find thousands of great examples and tweak them to your particular use: search google or youtube for what you want to make, upload the code to arduino and you are done.
 
 Programming Arduino is like plugging in to the matrix... a few clicks and keystrokes and suddenly "I know kung fu"]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -13358,7 +13358,7 @@ As always, your mileage may vary, but let me know if it helps.]]></content:encod
 
 The case study here is a television graphic presented last week. Here is the original on-air version:
 
-[caption id="attachment_546" align="alignleft" width="497" caption="Original air date Dec 12, 2011 (Fox News)"]<a href="http://dawes.files.wordpress.com/2011/12/foxnews.jpg"><img class="size-full wp-image-546" title="Fox data on unemployment" src="http://dawes.files.wordpress.com/2011/12/foxnews.jpg" alt="Fox data on unemployment" width="497" height="299" /></a>[/caption]
+<span class="caption">"]<a href="http://dawes.files.wordpress.com/2011/12/foxnews.jpg"><img class="size-full wp-image-546" title="Fox data on unemployment" src="http://dawes.files.wordpress.com/2011/12/foxnews.jpg" alt="Fox data on unemployment" width="497" height="299" /></a></span>
 
 There are two big problems with this graph. I'm not going to address graph design, chartjunk, or any other aspects beyond the fundamentals. Once this graph is <em>technically correct</em>, we could argue those points. Here we'll focus on graphs 101... the basics.
 
@@ -13366,7 +13366,7 @@ There are two big problems with this graph. I'm not going to address graph desig
 
 <strong>The trend</strong> is not only wrong, but it has been manipulated. This can be shown by comparing the data presented above to the <a href="http://data.bls.gov/timeseries/lns14000000">actual data</a>. First, in order to even compare these charts, we have to fix the scale issue. It turns out that the scale was wrong by exactly 1/2 so it seems reasonable to assume that an error was made in the preparation where either the data or the scale were reduced in size in order to make things fit. Perhaps it was more pleasing to see 8 and 10 as round numbers on the screen. The data doesn't vary by much so that scale would have made it seem too flat (a legitimate trick for skewing data perception). This kind of mistake happens... it shouldn't, but it does. With the scale fixed, the data sets overlap very well except for two key areas:
 
-[caption id="attachment_548" align="alignleft" width="497" caption="Unemployment data (blue) and TV news graphic (red)."]<a href="http://dawes.files.wordpress.com/2011/12/fox-vs-reality.png"><img class="size-full wp-image-548" title="Unemployment data" src="http://dawes.files.wordpress.com/2011/12/fox-vs-reality.png" alt="TV vs reality" width="497" height="298" /></a>[/caption]
+<span class="caption"> and TV news graphic (red)."]<a href="http://dawes.files.wordpress.com/2011/12/fox-vs-reality.png"><img class="size-full wp-image-548" title="Unemployment data" src="http://dawes.files.wordpress.com/2011/12/fox-vs-reality.png" alt="TV vs reality" width="497" height="298" /></a></span>
 
 You can spot the difference without my help. Just to be open, honest, and clear I have added error bars that represent the confidence interval for gathering data from the screenshot presented above. Thanks to <a href="http://www.arizona-software.ch/graphclick/">GraphClick</a> software, this is an easy thing to do. The blue line is the original data from the <a href="http://data.bls.gov/timeseries/lns14000000">source</a>, and the red is the (scale corrected) TV version.
 
@@ -13418,7 +13418,7 @@ Sure, they could say "we gave you the raw data in yellow." Yes, but the graph is
     <wp:comment_author_IP>184.106.250.43</wp:comment_author_IP>
     <wp:comment_date>2012-03-26 13:46:55</wp:comment_date>
     <wp:comment_date_gmt>2012-03-26 18:46:55</wp:comment_date_gmt>
-    <wp:comment_content><![CDATA[[...] &amp; Color Changing Technology Related InformationBass fishing in cold weather.Get ProFASHIONal.The Daily Photon   [...]]]></wp:comment_content>
+    <wp:comment_content><![CDATA[[...] and Color Changing Technology Related InformationBass fishing in cold weather.Get ProFASHIONal.The Daily Photon   [...]]]></wp:comment_content>
     <wp:comment_approved>1</wp:comment_approved>
     <wp:comment_type>pingback</wp:comment_type>
     <wp:comment_parent>0</wp:comment_parent>
@@ -13461,7 +13461,7 @@ During the semester, we had briefly covered the use of transistors as mixers and
 
 It turns out to have worked very well and I was easily able to tune in their "signal" on an old clock radio. The range wasn't great with just a single wire antenna (no impedance matching or amplification) but they satisfied the spirit of the problem.
 
-<strong>I learned </strong>that it is tricky to do these group challenge problems with 11 students. Last time around I had 7 in the class and that was just fine... two natural groups of 3 and 4 students. This time, there were always one or two people standing around. They broke out into four groups, with two groups working on the carrier and two on the signal. This let them speed up the prototyping &amp; testing process. The adjustment I had to make this time was to provide extra parts to tinker with (duplicates from the parts list above). That way there were enough parts so everyone could be prototyping something. When someone got the oscillator to work they could say what component values they used and that circuit could be built into the <em>final answer</em>. If the course is this large again, I'll have to be creative about finding a challenge that can be easily distributed.
+<strong>I learned </strong>that it is tricky to do these group challenge problems with 11 students. Last time around I had 7 in the class and that was just fine... two natural groups of 3 and 4 students. This time, there were always one or two people standing around. They broke out into four groups, with two groups working on the carrier and two on the signal. This let them speed up the prototyping and testing process. The adjustment I had to make this time was to provide extra parts to tinker with (duplicates from the parts list above). That way there were enough parts so everyone could be prototyping something. When someone got the oscillator to work they could say what component values they used and that circuit could be built into the <em>final answer</em>. If the course is this large again, I'll have to be creative about finding a challenge that can be easily distributed.
 
 <strong>The class learned</strong> about AM radio and I'm willing to bet a longitudinal study that they will remember how to use a transistor as a mixer. I'm using the <a href="http://en.wikipedia.org/wiki/Testing_effect">testing effect</a> here to teach some concepts that weren't central to the course (i.e., they didn't cram for them the night before) but they are relevant, useful, and fun to know.
 
@@ -13724,7 +13724,7 @@ Fortunately, less than two months ago, <a title="Engineering the World" href="ht
 
 At first, I was running a 32-bit version of python from the <a href="http://enthought.com/products/epd.php">Enthought Python Distribution</a> (EPD). I ran at 32-bits because some of their toolchain is not 64-bit compatible. It turns out I don't use much of that toolchain at the moment, and there is a new alternative that makes this problem moot. In any case, my first attempt to install pyFFTW resulted in no performance improvement over stock numpy fft libraries. I compiled FFTW using many combinations of compiler flags and never saw more than a 5% speedup over numpy's fft.
 
-Next I upgraded to 64-bit python (via EPD) and installed <a href="http://www.macports.org/">macports</a> <a href="http://www.macports.org/ports.php?by=name&amp;substr=fftw">FFTW libraries</a>. Note, to have the full functionality of pyFFTW, be sure to install all three fftw-3 ports: fftw-3, fftw-3-long, and fftw-3-single. These provide FFT routines for three different precisions, double, long-double, and single, respectively.
+Next I upgraded to 64-bit python (via EPD) and installed <a href="http://www.macports.org/">macports</a> <a href="http://www.macports.org/ports.php?by=nameandsubstr=fftw">FFTW libraries</a>. Note, to have the full functionality of pyFFTW, be sure to install all three fftw-3 ports: fftw-3, fftw-3-long, and fftw-3-single. These provide FFT routines for three different precisions, double, long-double, and single, respectively.
 
 With 64-bit python, and macports libraries, I have a fast pyFFTW install. FFTs take about 1/5 the time using pyFFTW compared to using stock numpy fft routines. This makes it all worth it. If you are playing with FFTW on mac, I can at least vouch for the macports FFTW libraries and I definitely recommend Henry's pyFFTW if you're using python. These wrappers keep the flexibility of FFTW without being hard to use.
 
@@ -13762,7 +13762,7 @@ In a future post I'll compare FFTW compiled with gnu compilers to that compiled 
   <category domain="post_tag" nicename="python"><![CDATA[python]]></category>
   <category domain="category" nicename="python"><![CDATA[python]]></category>
   <category domain="post_tag" nicename="python-distribution"><![CDATA[python distribution]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <category domain="post_tag" nicename="transform"><![CDATA[transform]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
@@ -14124,7 +14124,7 @@ Back to our task at hand. <a href="http://www.tirerack.com/tires/tiretech/techpa
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
-  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories &amp; anecdotes]]></category>
+  <category domain="category" nicename="stories-anecdotes"><![CDATA[stories and anecdotes]]></category>
   <category domain="category" nicename="try-this-at-home"><![CDATA[try this at home]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
@@ -14228,7 +14228,7 @@ On a more personal note, I'm happy to share space in the NSF Award search result
   <dc:creator>adawes</dc:creator>
   <guid isPermaLink="false">http://dawes.wordpress.com/?p=637</guid>
   <description/>
-  <content:encoded><![CDATA[A link to the Pacific University press release on our recent grant, includes more details and a good overview of the project: <a href="http://www.pacificu.edu/news/detail.cfm?NEWS_ID=11552&amp;CATEGORY_ID=1">National Science Foundation awards grant to Andrew Dawes, Physics</a>.]]></content:encoded>
+  <content:encoded><![CDATA[A link to the Pacific University press release on our recent grant, includes more details and a good overview of the project: <a href="http://www.pacificu.edu/news/detail.cfm?NEWS_ID=11552andCATEGORY_ID=1">National Science Foundation awards grant to Andrew Dawes, Physics</a>.]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>637</wp:post_id>
   <wp:post_date>2012-09-11 12:08:07</wp:post_date>
@@ -14317,7 +14317,7 @@ These students needed the backstory behind this situation. What is the block's m
     <wp:comment_author_IP>184.76.45.221</wp:comment_author_IP>
     <wp:comment_date>2012-11-28 19:27:33</wp:comment_date>
     <wp:comment_date_gmt>2012-11-29 00:27:33</wp:comment_date_gmt>
-    <wp:comment_content><![CDATA[As a double-major in Science &amp; English (a combination which many people have told me is "weird") I'm loving this reflection!  :)]]></wp:comment_content>
+    <wp:comment_content><![CDATA[As a double-major in Science and English (a combination which many people have told me is "weird") I'm loving this reflection!  :)]]></wp:comment_content>
     <wp:comment_approved>1</wp:comment_approved>
     <wp:comment_type/>
     <wp:comment_parent>0</wp:comment_parent>
@@ -14492,7 +14492,7 @@ I've been tinkering with it for a while, but I am finally sitting down to write 
   <category domain="category" nicename="open-source-software"><![CDATA[open source software]]></category>
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="category" nicename="python"><![CDATA[python]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -14598,7 +14598,7 @@ Then type in your URL:
   <category domain="post_tag" nicename="latex"><![CDATA[latex]]></category>
   <category domain="category" nicename="latex"><![CDATA[latex]]></category>
   <category domain="post_tag" nicename="prezi"><![CDATA[prezi]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -14760,7 +14760,7 @@ I have been working on a <a title="Schlieren Photography" href="http://en.wikipe
   <dc:creator>adawes</dc:creator>
   <guid isPermaLink="false">http://dawes.wordpress.com/?p=750</guid>
   <description/>
-  <content:encoded><![CDATA[[slideshare id=17863016&amp;doc=reedseminar2013-130329103603-phpapp02]
+  <content:encoded><![CDATA[[slideshare id=17863016anddoc=reedseminar2013-130329103603-phpapp02]
 
 As I continue to experiment with open-access science, I plan to post my slides here for anyone who is interested. This talk is a Seminar I gave at Reed College; it is based on a shorter talk written for Photonics West 2013.]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -15157,7 +15157,7 @@ http://www.youtube.com/watch?v=zSOyC3K3xJE]]></content:encoded>
   <description/>
   <content:encoded><![CDATA[[caption id="attachment_833" align="alignright" width="271"]<a href="http://dawes.files.wordpress.com/2014/04/screen-shot-2014-04-06-at-6-29-06-am.png"><img class="size-medium wp-image-833" src="http://dawes.files.wordpress.com/2014/04/screen-shot-2014-04-06-at-6-29-06-am.png?w=271" alt="Screenshot of python code for viewing and saving data from Tektronix scopes." width="271" height="300" /></a> Screenshot of python code for viewing and saving data from Tektronix scopes.[/caption]
 
-In the Photonics and Quantum Optics lab, I've made open-source a high priority. With that in mind, we've written software to interface with many of our instruments. We also rely on <a href="http://github.com/DawesLab">github</a> for version control and dissemination of our code. I'm particularly happy with a small application that pulls data from a Tektronix oscilloscope (tested on TDS1000 &amp; 2000 models). This is my first python GUI app, despite having worked in python quite heavily for the past 12+ years. If you are interested, the work-in-progress code is <a href="http://github.com/DawesLab/instruments">available</a> and should work for a Tek scope plugged in to USB on a linux host. I can't promise it works on other platforms.
+In the Photonics and Quantum Optics lab, I've made open-source a high priority. With that in mind, we've written software to interface with many of our instruments. We also rely on <a href="http://github.com/DawesLab">github</a> for version control and dissemination of our code. I'm particularly happy with a small application that pulls data from a Tektronix oscilloscope (tested on TDS1000 and 2000 models). This is my first python GUI app, despite having worked in python quite heavily for the past 12+ years. If you are interested, the work-in-progress code is <a href="http://github.com/DawesLab/instruments">available</a> and should work for a Tek scope plugged in to USB on a linux host. I can't promise it works on other platforms.
 
 Here is a partial list of the requirements:
 <ul>
@@ -15378,7 +15378,7 @@ ValueError: buffer size must be a multiple of element size]]></wp:comment_conten
 	<li>Learn basic <span class="qlink_container"><a style="color:#19558d;" href="http://www.quora.com/Bash-shell">Bash</a></span>. Actually, read the whole bash man page; it's pretty easy to follow and not that long. Alternate shells can be nice, but bash is powerful and always available (learning mainly zsh or tcsh restricts you in many situations).</li>
 	<li>Learn vim. There's really no competition for random Linux editing (even if you use Emacs or Eclipse most of the time).</li>
 	<li>Know ssh, and the basics of passwordless authentication, via ssh-agent, ssh-add, etc.</li>
-	<li>Be familiar with bash job management: &amp;, Ctrl-Z, Ctrl-C, jobs, fg, bg, kill, etc.</li>
+	<li>Be familiar with bash job management: and, Ctrl-Z, Ctrl-C, jobs, fg, bg, kill, etc.</li>
 	<li>Basic file management: ls and ls -l (in particular, learn what every column in "ls -l" means), less, head, tail and tail -f, ln and ln -s (learn the differences and advantages of hard versus soft links), chown, chmod, du (for a quick summary of disk usage: du -sk *), df, mount.</li>
 	<li>Basic network management: ip or ifconfig, dig.</li>
 	<li>Know regular expressions well, and the various flags to grep/egrep. The -o, -A, and -B options are worth knowing.</li>
@@ -15412,7 +15412,7 @@ ValueError: buffer size must be a multiple of element size]]></wp:comment_conten
 	<li>In bash, note there are lots of kinds of variable expansion. Checking a variable exists: ${name:?error message}. For example, if a bash script requires a single argument, just write input_file=${1:?usage: $0 input_file}. Arithmetic expansion: i=$(( (i + 1) % 5 )). Sequences: {1..10}. Trimming of strings: ${var%suffix} and ${var#prefix}. For example if var=foo.pdf, then echo ${var%.pdf}.txt prints "foo.txt".</li>
 	<li>The output of a command can be treated like a file via &lt;(some command). For example, compare local /etc/hosts with a remote one: diff /etc/hosts &lt;(ssh somehost cat /etc/hosts)</li>
 	<li>Know about "here documents" in bash, as in cat &lt;&lt;EOF ....</li>
-	<li>In bash, redirect both standard output and standard error via: some-command &gt;logfile 2&gt;&amp;1. Often, to ensure a command does not leave an open file handle to standard input, tying it to the terminal you are in, it is also good practice to add "&lt;/dev/null".</li>
+	<li>In bash, redirect both standard output and standard error via: some-command &gt;logfile 2&gt;and1. Often, to ensure a command does not leave an open file handle to standard input, tying it to the terminal you are in, it is also good practice to add "&lt;/dev/null".</li>
 	<li>Use man ascii for a good ASCII table, with hex and decimal values.</li>
 	<li>On remote ssh sessions, use screen or dtach to save your session, in case it is interrupted.</li>
 	<li>In ssh, knowing how to port tunnel with -L or -D (and occasionally -R) is useful, e.g. to access web sites from a remote server.</li>
@@ -15498,7 +15498,7 @@ ValueError: buffer size must be a multiple of element size]]></wp:comment_conten
   <category domain="post_tag" nicename="command-line"><![CDATA[command line]]></category>
   <category domain="category" nicename="computing"><![CDATA[computing]]></category>
   <category domain="post_tag" nicename="linux"><![CDATA[linux]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -15598,7 +15598,7 @@ ValueError: buffer size must be a multiple of element size]]></wp:comment_conten
   <category domain="category" nicename="academia"><![CDATA[academia]]></category>
   <category domain="category" nicename="experiments"><![CDATA[experiments]]></category>
   <category domain="category" nicename="python"><![CDATA[python]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -15676,40 +15676,40 @@ Some of the solutions were easy, some are hackish and only one uses the lightly-
 <h2>Fontsize</h2>
 To adjust the font sizes, I took the rc approach which modifies the global settings (at least within this script). The following three lines take care of the font style/size issues:
 
-[code language="python"]rc('font',size=28)
+{% highlight python %}rc('font',size=28)
 rc('font',family='serif')
-rc('axes',labelsize=32)[/code]
+rc('axes',labelsize=32){% endhighlight %}
 
 Notice that this requires the use of <tt style="color:#0000ff;">from matplotlib import rc</tt>.
 I didn't like the spacing between the tick labels and the axes so I use the following six lines to loop through the tick labels and set their alignment parameters:
 
-[code language="python"]
+{% highlight python %}
 [t.set_va('center') for t in ax1.get_yticklabels()]
 [t.set_ha('left') for t in ax1.get_yticklabels()]
 [t.set_va('center') for t in ax1.get_xticklabels()]
 [t.set_ha('right') for t in ax1.get_xticklabels()]
 [t.set_va('center') for t in ax1.get_zticklabels()]
 [t.set_ha('left') for t in ax1.get_zticklabels()]
-[/code]
+{% endhighlight %}
 
 Where <tt>.set_va</tt> is a method to set the vertical alignment, and <tt>.set_ha</tt> sets the horizontal alignment. Notice that the alignment choice depends on the axis in order to get the label close to the axis.
 <h2>Background</h2>
 To clear out the grid, remove the gray fill and outline the panes (i.e. create an empty cubic wireframe around the plot) I use the following:
 
-[code language="python"]
+{% highlight python %}
 ax1.grid(False)
 ax1.xaxis.pane.set_edgecolor('black')
 ax1.yaxis.pane.set_edgecolor('black')
 ax1.xaxis.pane.fill = False
 ax1.yaxis.pane.fill = False
 ax1.zaxis.pane.fill = False
-[/code]
+{% endhighlight %}
 
 A final note of caution, in my testing, I found that the visibility of parts of the pane edge depends on the viewing angle. I found that setting the view to <tt>ax1.view_init(elev=10, azim=135)</tt> worked to see all the edge lines. Notice that this does put the x and y axes in a counter-intuitive orientation. For my purposes, those directions are arbitrary, but that may not always be the case.
 <h2>Tick placement</h2>
 There are two things I changed about the ticks, first, the way they point and how long they are. I like ticks pointing into the plot that leave a clean edge around the boundary. To achieve this I did have to dive into the realm of <tt>_axinfo</tt> (here be dragons):
 
-[code language="python"]
+{% highlight python %}
 ax1.xaxis._axinfo['tick']['inward_factor'] = 0
 ax1.xaxis._axinfo['tick']['outward_factor'] = 0.4
 ax1.yaxis._axinfo['tick']['inward_factor'] = 0
@@ -15717,17 +15717,17 @@ ax1.yaxis._axinfo['tick']['outward_factor'] = 0.4
 ax1.zaxis._axinfo['tick']['inward_factor'] = 0
 ax1.zaxis._axinfo['tick']['outward_factor'] = 0.4
 ax1.zaxis._axinfo['tick']['outward_factor'] = 0.4
-[/code]
+{% endhighlight %}
 
 Notice the order isn't what I'd expect: I had to set the inward factor to zero and increase the outward factor. This may be a bug so don't count on it to always work (and don't count on access to <tt>_axinfo</tt> at all for that matter).
 
 The final change to the ticks was to use a different tick placement. Matplotlib has several to choose from and I wanted to select an even interval so the <tt>MultipleLocator</tt> ticker is my tool. Load it with <tt style="color:#0000ff;">from matplotlib.ticker import MultipleLocator</tt> and then implement for all three axes as follows:
 
-[code language="python"]
+{% highlight python %}
 ax1.xaxis.set_major_locator(MultipleLocator(5))
 ax1.yaxis.set_major_locator(MultipleLocator(5))
 ax1.zaxis.set_major_locator(MultipleLocator(0.01))
-[/code]
+{% endhighlight %}
 
 This is not automagic so you'd have to change the base interval (or make it programmatic) if you want a general-purpose figure script. I personally have some quick and dirty figure-making scripts (using mostly defaults) for analyzing my own data and then I write up a specific script to create a specific plot for the manuscript. Much of those scripts get heavily reused, but this was the first time I had to create a 3D surface plot and also the farthest I've had to dig into matplotlib. I figured I'd document it for that reason. Good luck, and I hope you find this helpful.
 
@@ -15753,7 +15753,7 @@ Thanks to Ben Root for the tip on setting the pane edgecolor... that piece took 
   <category domain="category" nicename="physics"><![CDATA[physics]]></category>
   <category domain="post_tag" nicename="plotting"><![CDATA[plotting]]></category>
   <category domain="category" nicename="python"><![CDATA[python]]></category>
-  <category domain="category" nicename="tips-tricks"><![CDATA[tips &amp; tricks]]></category>
+  <category domain="category" nicename="tips-tricks"><![CDATA[tips and tricks]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[506905]]></wp:meta_value>
@@ -16479,7 +16479,7 @@ Abstract — We measure the joint <span class="aps-inline-formula"><span id="M
   <dc:creator>adawes</dc:creator>
   <guid isPermaLink="false">https://dawes.wordpress.com/?p=872</guid>
   <description/>
-  <content:encoded><![CDATA[[caption id="attachment_875" align="alignleft" width="300"]<a href="https://dawes.files.wordpress.com/2015/01/prav90i0509.png"><img src="https://dawes.files.wordpress.com/2015/01/prav90i0509.png?w=300" alt="3d matplotlib image" width="300" height="300" class="size-medium wp-image-875" /></a> Q-function figure (without labels) as presented in PRA Kaleidoscope[/caption]This figure, generated from our data and visualized using matplotlib, was selected to be featured in <a href="https://journals.aps.org/pra/kaleidoscope/pra/90/5/053818">PRA's Kaleidoscope listings</a>. Figures are selected for aesthetics so we are naturally pleased to have this recognition.
+  <content:encoded><![CDATA[<span class="caption"> as presented in PRA Kaleidoscope</span>This figure, generated from our data and visualized using matplotlib, was selected to be featured in <a href="https://journals.aps.org/pra/kaleidoscope/pra/90/5/053818">PRA's Kaleidoscope listings</a>. Figures are selected for aesthetics so we are naturally pleased to have this recognition.
 
 For more on how this figure was created, see my earlier post on <a href="https://dawes.wordpress.com/2014/06/27/publication-ready-3d-figures-from-matplotlib/" title="Publication-ready 3D figures from Matplotlib">publication-ready 3D figures from Matplotlib</a>. Finally, the source for this figure is available as an Ipython notebook in our <a href="https://github.com/DawesLab/CCDimage/blob/master/Q%20function%20graphs%20for%20paper.ipynb">github repository</a>:  ]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -16563,7 +16563,7 @@ For more on how this figure was created, see my earlier post on <a href="https:/
   <dc:creator>adawes</dc:creator>
   <guid isPermaLink="false">https://dawes.wordpress.com/?p=880</guid>
   <description/>
-  <content:encoded><![CDATA[I have finally published the <a href="http://amcdawes.com/QMlabs">IPython notebooks</a> that I have worked up for our Quantum Mechanics course. This is a one-semester course for juniors and seniors. We use the book <a href="https://global.oup.com/academic/product/quantum-mechanics-9780199798124?cc=us&amp;lang=en&amp;">Quantum Mechanics: Theory and Experiment</a> by Mark Beck. This is relevant because some of the notebooks refer to in-text examples and chapter problems. I use these notebooks during our weekly lab time for those students that are not working on the entangled-photon experimental apparatus for that week. We rotate through the experiment in groups of four. The students are responsible for the material in the notebooks, and have taken to using the notebook tools on their homework as well.
+  <content:encoded><![CDATA[I have finally published the <a href="http://amcdawes.com/QMlabs">IPython notebooks</a> that I have worked up for our Quantum Mechanics course. This is a one-semester course for juniors and seniors. We use the book <a href="https://global.oup.com/academic/product/quantum-mechanics-9780199798124?cc=usandlang=enand">Quantum Mechanics: Theory and Experiment</a> by Mark Beck. This is relevant because some of the notebooks refer to in-text examples and chapter problems. I use these notebooks during our weekly lab time for those students that are not working on the entangled-photon experimental apparatus for that week. We rotate through the experiment in groups of four. The students are responsible for the material in the notebooks, and have taken to using the notebook tools on their homework as well.
 
 Chapter-specific notebooks and the lab activities are available on <a href="http://github.com/amcdawes/QMlabs">github</a>. I have also created a <a href="http://amcdawes.com/QMlabs">web page</a> that links to viewable (and downloadable) versions of the notebooks so you can see them before you install IPython or any other prerequisites. Please contact me with any questions. I continue to use these in my course and am happy to support them for others who are interested in using them.
 
